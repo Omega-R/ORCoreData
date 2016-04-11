@@ -12,7 +12,7 @@ import MagicalRecord
 public typealias ORCoreDataSaverSavingBlock = (localContext : NSManagedObjectContext!, inout cancelSaving: Bool) -> Void
 public typealias ORCoreDataSaverCompletionBlock = () -> Void
 
-public class ORCoreDataSaver: NSObject {
+@objc public class ORCoreDataSaver: NSObject {
     
     public static let sharedInstance = ORCoreDataSaver()
     

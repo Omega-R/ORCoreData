@@ -9,7 +9,7 @@
 import Foundation
 import MagicalRecord
 
-public class ORCoreDataEntityFinderAndCreator {
+@objc public class ORCoreDataEntityFinderAndCreator : NSObject {
     
     var context: NSManagedObjectContext?
     
