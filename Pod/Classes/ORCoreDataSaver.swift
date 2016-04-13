@@ -11,8 +11,9 @@ import MagicalRecord
 
 public typealias ORCoreDataSaverSavingBlock = (localContext : NSManagedObjectContext!, inout cancelSaving: Bool) -> Void
 public typealias ORCoreDataSaverCompletionBlock = () -> Void
+public typealias ORCoreDataSaverCompletionWithObjectIdsBlock = (objects: [String]) -> Void
 
-@objc public class ORCoreDataSaver: NSObject {
+public class ORCoreDataSaver: NSObject {
     
     public static let sharedInstance = ORCoreDataSaver()
     
@@ -28,7 +29,7 @@ public typealias ORCoreDataSaverCompletionBlock = () -> Void
     public func saveData(savingBlock: ORCoreDataSaverSavingBlock, success: ORCoreDataSaverCompletionBlock) -> Void {
         savingQueue.addOperationWithBlock( {
             var cancelSaving = false
-
+            
             MagicalRecord.saveWithBlockAndWait({ (localContext : NSManagedObjectContext!) in
                 savingBlock(localContext: localContext, cancelSaving: &cancelSaving)
                 
@@ -40,6 +41,39 @@ public typealias ORCoreDataSaverCompletionBlock = () -> Void
             if !cancelSaving {
                 dispatch_async(dispatch_get_main_queue()) {
                     success()
+                }
+            }
+        })
+    }
+    
+    public func saveData(savingBlock: ORCoreDataSaverSavingBlock, objectUidKey: String, successWithObjectIds: ORCoreDataSaverCompletionWithObjectIdsBlock) -> Void {
+        savingQueue.addOperationWithBlock( {
+            var cancelSaving = false
+            
+            var objectIds = [String]()
+            
+            MagicalRecord.saveWithBlockAndWait({ (localContext : NSManagedObjectContext!) in
+                savingBlock(localContext: localContext, cancelSaving: &cancelSaving)
+                
+                if cancelSaving {
+                    localContext.rollback()
+                } else {
+                    for obj in localContext.insertedObjects {
+                        if let uid = obj.valueForKey(objectUidKey) where uid is String {
+                            objectIds.append(uid as! String)
+                        }
+                    }
+                    for obj in localContext.updatedObjects {
+                        if let uid = obj.valueForKey(objectUidKey) where uid is String {
+                            objectIds.append(uid as! String)
+                        }
+                    }
+                }
+            })
+            
+            if !cancelSaving {
+                dispatch_async(dispatch_get_main_queue()) {
+                    successWithObjectIds(objects: objectIds)
                 }
             }
         })
