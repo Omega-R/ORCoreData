@@ -1,0 +1,31 @@
+{
+  "name": "ORCoreData",
+  "version": "1.0.0",
+  "summary": "ORCoreData - components for work with CoreData",
+  "description": "ORCoreDataSaver & ORCoreDataEntityFinderAndCreator",
+  "homepage": "https://bitbucket.org/omegarinc/orcoredata",
+  "license": "MIT",
+  "authors": {
+    "Maxim Soloviev": "maxim@omega-r.com"
+  },
+  "source": {
+    "git": "https://bitbucket.org/omegarinc/orcoredata.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "ORCoreData": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "frameworks": "Foundation",
+  "dependencies": {
+    "MagicalRecord": [
+      "~> 2.3"
+    ]
+  }
+}
