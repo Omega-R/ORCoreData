@@ -9,29 +9,30 @@
 import Foundation
 import MagicalRecord
 
-public typealias ORCoreDataSaverSavingBlock = (localContext : NSManagedObjectContext!, inout cancelSaving: Bool) -> Void
+public typealias ORCoreDataSaverSavingBlock = (_ localContext : NSManagedObjectContext, _ cancelSaving: inout Bool) -> Void
 public typealias ORCoreDataSaverCompletionBlock = () -> Void
-public typealias ORCoreDataSaverCompletionWithObjectIdsBlock = (objects: [String]) -> Void
+public typealias ORCoreDataSaverCompletionWithObjectIdsBlock = (_ objects: [String]) -> Void
 
-public class ORCoreDataSaver: NSObject {
+open class ORCoreDataSaver: NSObject {
     
     public static let sharedInstance = ORCoreDataSaver()
     
-    let savingQueue = NSOperationQueue()
+    let savingQueue = OperationQueue()
     
     private override init() {
         super.init()
-        savingQueue.name = "ORCoreDataSaver queue"
+        savingQueue.name = "ORCoreDataSaver_queue"
         savingQueue.maxConcurrentOperationCount = 1
-        savingQueue.qualityOfService = .Utility
+        savingQueue.qualityOfService = .utility
     }
     
-    public func saveData(savingBlock: ORCoreDataSaverSavingBlock, success: ORCoreDataSaverCompletionBlock) -> Void {
-        savingQueue.addOperationWithBlock( {
+    open func saveData(_ savingBlock: @escaping ORCoreDataSaverSavingBlock,
+                       success: @escaping ORCoreDataSaverCompletionBlock) -> Void {
+        savingQueue.addOperation( {
             var cancelSaving = false
             
-            MagicalRecord.saveWithBlockAndWait({ (localContext : NSManagedObjectContext!) in
-                savingBlock(localContext: localContext, cancelSaving: &cancelSaving)
+            MagicalRecord.save(blockAndWait: { (localContext) in
+                savingBlock(localContext, &cancelSaving)
                 
                 if cancelSaving {
                     localContext.rollback()
@@ -39,32 +40,33 @@ public class ORCoreDataSaver: NSObject {
             })
             
             if !cancelSaving {
-                dispatch_async(dispatch_get_main_queue()) {
+                DispatchQueue.main.async() {
                     success()
                 }
             }
         })
     }
     
-    public func saveData(savingBlock: ORCoreDataSaverSavingBlock, objectUidKey: String, successWithObjectIds: ORCoreDataSaverCompletionWithObjectIdsBlock) -> Void {
-        savingQueue.addOperationWithBlock( {
+    open func saveData(_ savingBlock: @escaping ORCoreDataSaverSavingBlock, objectUidKey: String,
+                       successWithObjectIds: @escaping ORCoreDataSaverCompletionWithObjectIdsBlock) -> Void {
+        savingQueue.addOperation( {
             var cancelSaving = false
             
             var objectIds = [String]()
             
-            MagicalRecord.saveWithBlockAndWait({ (localContext : NSManagedObjectContext!) in
-                savingBlock(localContext: localContext, cancelSaving: &cancelSaving)
+            MagicalRecord.save(blockAndWait: { (localContext : NSManagedObjectContext!) in
+                savingBlock(localContext, &cancelSaving)
                 
                 if cancelSaving {
                     localContext.rollback()
                 } else {
                     for obj in localContext.insertedObjects {
-                        if let uid = obj.valueForKey(objectUidKey) where uid is String {
+                        if let uid = obj.value(forKey: objectUidKey), uid is String {
                             objectIds.append(uid as! String)
                         }
                     }
                     for obj in localContext.updatedObjects {
-                        if let uid = obj.valueForKey(objectUidKey) where uid is String {
+                        if let uid = obj.value(forKey: objectUidKey), uid is String {
                             objectIds.append(uid as! String)
                         }
                     }
@@ -72,8 +74,8 @@ public class ORCoreDataSaver: NSObject {
             })
             
             if !cancelSaving {
-                dispatch_async(dispatch_get_main_queue()) {
-                    successWithObjectIds(objects: objectIds)
+                DispatchQueue.main.async() {
+                    successWithObjectIds(objectIds)
                 }
             }
         })

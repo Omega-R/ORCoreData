@@ -9,7 +9,7 @@
 import Foundation
 import MagicalRecord
 
-@objc public class ORCoreDataEntityFinderAndCreator : NSObject {
+@objc open class ORCoreDataEntityFinderAndCreator : NSObject {
     
     var context: NSManagedObjectContext?
     
@@ -17,28 +17,28 @@ import MagicalRecord
         self.context = context
     }
     
-    public func findEntityOfType<T: NSManagedObject>(type: T.Type, byAttribute attr: String, withValue value: String) -> T? {
-        let obj = type.MR_findFirstByAttribute(attr, withValue: value, inContext: context!)
+    open func findEntityOfType<T: NSManagedObject>(_ type: T.Type, byAttribute attr: String, withValue value: String) -> T? {
+        let obj = type.mr_findFirst(byAttribute: attr, withValue: value, in: context!)
         return obj
     }
     
-    public func findFirstEntityOfType<T: NSManagedObject>(type: T.Type) -> T? {
-        let obj = type.MR_findFirstInContext(context!)
+    open func findFirstEntityOfType<T: NSManagedObject>(_ type: T.Type) -> T? {
+        let obj = type.mr_findFirst(in: context!)
         return obj
     }
     
-    public func createEntityOfType<T: NSManagedObject>(type: T.Type) -> T? {
-        let obj = type.MR_createEntityInContext(context!)
+    open func createEntityOfType<T: NSManagedObject>(_ type: T.Type) -> T? {
+        let obj = type.mr_createEntity(in: context!)
         return obj
     }
     
-    public func findOrCreateEntityOfType<T: NSManagedObject>(type: T.Type, byAttribute attr: String, withValue value: String) -> T {
-        let obj = type.MR_findFirstOrCreateByAttribute(attr, withValue: value, inContext: context!)
+    open func findOrCreateEntityOfType<T: NSManagedObject>(_ type: T.Type, byAttribute attr: String, withValue value: String) -> T {
+        let obj = type.mr_findFirstOrCreate(byAttribute: attr, withValue: value, in: context!)
         return obj
     }
     
-    public func countOfEntitiesOfType<T: NSManagedObject>(type: T.Type) -> UInt {
-        let count = type.MR_countOfEntitiesWithContext(context!)
+    open func countOfEntitiesOfType<T: NSManagedObject>(_ type: T.Type) -> UInt {
+        let count = type.mr_countOfEntities(with: context!)
         return count
     }
 }

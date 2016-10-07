@@ -14,7 +14,7 @@ import ORCoreData
 class ORCoreDataEntityFinderAndCreatorTests: ORBaseTestWithCoreData {
     
     func test_findOrCreate() {
-        let context = NSManagedObjectContext.MR_context()
+        let context = NSManagedObjectContext.mr_()
         let finderAndCreator = ORCoreDataEntityFinderAndCreator(context)
         
         XCTAssertEqual(0, finderAndCreator.countOfEntitiesOfType(TestEntity.self))
@@ -38,7 +38,7 @@ class ORCoreDataEntityFinderAndCreatorTests: ORBaseTestWithCoreData {
     }
     
     func test_create() {
-        let context = NSManagedObjectContext.MR_context()
+        let context = NSManagedObjectContext.mr_()
         let finderAndCreator = ORCoreDataEntityFinderAndCreator(context)
         
         XCTAssertEqual(0, finderAndCreator.countOfEntitiesOfType(TestEntity.self))

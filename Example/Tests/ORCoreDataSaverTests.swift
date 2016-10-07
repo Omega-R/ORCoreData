@@ -14,39 +14,39 @@ import ORCoreData
 class ORCoreDataSaverTests: ORBaseTestWithCoreData {
     
     func test_saveData_empty() {
-        let expectation = expectationWithDescription("")
-        ORCoreDataSaver.sharedInstance.saveData({ (localContext, cancelSaving) -> Void in
+        let expectation = self.expectation(description: "")
+        ORCoreDataSaver.sharedInstance.saveData({ (localContext, cancelSaving) in
         },
-        success: { () -> Void in
+        success: {
             expectation.fulfill()
         })
         
-        waitForExpectationsWithTimeout(kTestExpectationTimeout, handler: nil)
+        waitForExpectations(timeout: kTestExpectationTimeout, handler: nil)
     }
     
     func test_saveData_full() {
-        let expectation = expectationWithDescription("")
-        ORCoreDataSaver.sharedInstance.saveData({ (localContext, cancelSaving) -> Void in
+        let expectation = self.expectation(description: "")
+        ORCoreDataSaver.sharedInstance.saveData({ (localContext, cancelSaving) in
             let entityFinderAndCreator = ORCoreDataEntityFinderAndCreator(localContext)
             let _ = entityFinderAndCreator.findOrCreateEntityOfType(TestEntity.self, byAttribute: "uid", withValue: "1")
         },
-        success: { () -> Void in
-            dispatch_async(dispatch_get_main_queue(), {
-                let object = ORCoreDataEntityFinderAndCreator(NSManagedObjectContext.MR_defaultContext()).findEntityOfType(TestEntity.self, byAttribute: "uid", withValue: "1")
+        success: {
+            DispatchQueue.main.async(execute: {
+                let object = ORCoreDataEntityFinderAndCreator(NSManagedObjectContext.mr_default()).findEntityOfType(TestEntity.self, byAttribute: "uid", withValue: "1")
                 XCTAssertNotNil(object)
                 
                 expectation.fulfill()
             })
         })
         
-        waitForExpectationsWithTimeout(kTestExpectationTimeout, handler: nil)
+        waitForExpectations(timeout: kTestExpectationTimeout, handler: nil)
     }
     
     func test_saveData_cancelSaving() {
-        ORCoreDataSaver.sharedInstance.saveData({ (localContext, inout cancelSaving: Bool) -> Void in
+        ORCoreDataSaver.sharedInstance.saveData({ (localContext, cancelSaving) in
             cancelSaving = true
         },
-        success: { () -> Void in
+        success: {
             XCTFail("success should not be called!");
         })
         
