@@ -17,7 +17,7 @@ import MagicalRecord
         self.context = context
     }
     
-    open func findEntityOfType<T: NSManagedObject>(_ type: T.Type, byAttribute attr: String, withValue value: String) -> T? {
+    open func findEntityOfType<T: NSManagedObject>(_ type: T.Type, byAttribute attr: String, withValue value: Any) -> T? {
         let obj = type.mr_findFirst(byAttribute: attr, withValue: value, in: context!)
         return obj
     }
@@ -32,7 +32,7 @@ import MagicalRecord
         return obj
     }
     
-    open func findOrCreateEntityOfType<T: NSManagedObject>(_ type: T.Type, byAttribute attr: String, withValue value: String) -> T {
+    open func findOrCreateEntityOfType<T: NSManagedObject>(_ type: T.Type, byAttribute attr: String, withValue value: Any) -> T {
         let obj = type.mr_findFirstOrCreate(byAttribute: attr, withValue: value, in: context!)
         return obj
     }
