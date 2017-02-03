@@ -11,7 +11,7 @@ import MagicalRecord
 
 @objc open class ORCoreDataEntityFinderAndCreator : NSObject {
     
-    var context: NSManagedObjectContext?
+    public var context: NSManagedObjectContext?
     
     public init(_ context: NSManagedObjectContext) {
         self.context = context
