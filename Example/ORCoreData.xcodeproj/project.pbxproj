@@ -14,12 +14,15 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		947DE7BF1E44A1B6003FECAB /* ORCoreDataRemoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947DE7BE1E44A1B6003FECAB /* ORCoreDataRemoverTests.swift */; };
 		94A671801CB711C300904AEB /* ORCoreDataSaverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A6717F1CB711C300904AEB /* ORCoreDataSaverTests.swift */; };
 		94A671871CB713C300904AEB /* ORCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94A671851CB713C300904AEB /* ORCoreData.xcdatamodeld */; };
 		94A6718A1CB7145100904AEB /* TestEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A671881CB7145100904AEB /* TestEntity+CoreDataProperties.swift */; };
 		94A6718B1CB7145100904AEB /* TestEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A671891CB7145100904AEB /* TestEntity.swift */; };
 		94A671901CB7166900904AEB /* ORCoreDataEntityFinderAndCreatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A6718F1CB7166900904AEB /* ORCoreDataEntityFinderAndCreatorTests.swift */; };
 		94A671921CB7169E00904AEB /* ORBaseTestWithCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A671911CB7169E00904AEB /* ORBaseTestWithCoreData.swift */; };
+		94A75B891E44A87300EA6FB3 /* AnotherTestEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A75B871E44A87300EA6FB3 /* AnotherTestEntity+CoreDataClass.swift */; };
+		94A75B8A1E44A87300EA6FB3 /* AnotherTestEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A75B881E44A87300EA6FB3 /* AnotherTestEntity+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,12 +50,15 @@
 		607FACE51AFB9204008FA782 /* ORCoreData_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ORCoreData_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AE233407B966DAA18697E48 /* Pods-ORCoreData_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORCoreData_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ORCoreData_Example/Pods-ORCoreData_Example.release.xcconfig"; sourceTree = "<group>"; };
+		947DE7BE1E44A1B6003FECAB /* ORCoreDataRemoverTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ORCoreDataRemoverTests.swift; sourceTree = "<group>"; };
 		94A6717F1CB711C300904AEB /* ORCoreDataSaverTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ORCoreDataSaverTests.swift; sourceTree = "<group>"; };
 		94A671861CB713C300904AEB /* ORCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ORCoreData.xcdatamodel; sourceTree = "<group>"; };
 		94A671881CB7145100904AEB /* TestEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TestEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		94A671891CB7145100904AEB /* TestEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestEntity.swift; sourceTree = "<group>"; };
 		94A6718F1CB7166900904AEB /* ORCoreDataEntityFinderAndCreatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ORCoreDataEntityFinderAndCreatorTests.swift; sourceTree = "<group>"; };
 		94A671911CB7169E00904AEB /* ORBaseTestWithCoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ORBaseTestWithCoreData.swift; sourceTree = "<group>"; };
+		94A75B871E44A87300EA6FB3 /* AnotherTestEntity+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AnotherTestEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		94A75B881E44A87300EA6FB3 /* AnotherTestEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AnotherTestEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		B1C08CDA6DD72FE6D69D1E3F /* Pods_ORCoreData_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ORCoreData_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C07858C5F642DDA07D8B0C3E /* Pods-ORCoreData_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORCoreData_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ORCoreData_Tests/Pods-ORCoreData_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E35A8C28B8CC6AE2942C6588 /* ORCoreData.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ORCoreData.podspec; path = ../ORCoreData.podspec; sourceTree = "<group>"; };
@@ -114,6 +120,8 @@
 		607FACD21AFB9204008FA782 /* Example for ORCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				94A75B871E44A87300EA6FB3 /* AnotherTestEntity+CoreDataClass.swift */,
+				94A75B881E44A87300EA6FB3 /* AnotherTestEntity+CoreDataProperties.swift */,
 				94A671881CB7145100904AEB /* TestEntity+CoreDataProperties.swift */,
 				94A671891CB7145100904AEB /* TestEntity.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
@@ -142,6 +150,7 @@
 				94A671911CB7169E00904AEB /* ORBaseTestWithCoreData.swift */,
 				94A6717F1CB711C300904AEB /* ORCoreDataSaverTests.swift */,
 				94A6718F1CB7166900904AEB /* ORCoreDataEntityFinderAndCreatorTests.swift */,
+				947DE7BE1E44A1B6003FECAB /* ORCoreDataRemoverTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -378,8 +387,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94A75B891E44A87300EA6FB3 /* AnotherTestEntity+CoreDataClass.swift in Sources */,
 				94A6718B1CB7145100904AEB /* TestEntity.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				94A75B8A1E44A87300EA6FB3 /* AnotherTestEntity+CoreDataProperties.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				94A6718A1CB7145100904AEB /* TestEntity+CoreDataProperties.swift in Sources */,
 				94A671871CB713C300904AEB /* ORCoreData.xcdatamodeld in Sources */,
@@ -392,6 +403,7 @@
 			files = (
 				94A671801CB711C300904AEB /* ORCoreDataSaverTests.swift in Sources */,
 				94A671921CB7169E00904AEB /* ORBaseTestWithCoreData.swift in Sources */,
+				947DE7BF1E44A1B6003FECAB /* ORCoreDataRemoverTests.swift in Sources */,
 				94A671901CB7166900904AEB /* ORCoreDataEntityFinderAndCreatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

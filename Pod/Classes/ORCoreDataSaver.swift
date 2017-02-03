@@ -13,7 +13,7 @@ public typealias ORCoreDataSaverSavingBlock = (_ localContext : NSManagedObjectC
 public typealias ORCoreDataSaverCompletionBlock = () -> Void
 public typealias ORCoreDataSaverCompletionWithObjectIdsBlock = (_ objects: [String]) -> Void
 
-open class ORCoreDataSaver: NSObject {
+@objc open class ORCoreDataSaver: NSObject {
     
     public static let sharedInstance = ORCoreDataSaver()
     

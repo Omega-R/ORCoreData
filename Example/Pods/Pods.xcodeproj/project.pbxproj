@@ -54,6 +54,7 @@
 		8A659D5FF4FF61FB994DD4FDF79694E6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF840A7C63C62116869B26FC4402542 /* CoreData.framework */; };
 		8B3011F7DDF300D64B90C9754C17BC5E /* NSManagedObjectModel+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A54E6948F07243BD6BC5AC75E68236 /* NSManagedObjectModel+MagicalRecord.m */; };
 		9265FF69A1422CE77F534B106D3D99FC /* NSManagedObject+MagicalFinders.m in Sources */ = {isa = PBXBuildFile; fileRef = C331CA822140505254A9A32F31944744 /* NSManagedObject+MagicalFinders.m */; };
+		947DE7BD1E44A0C6003FECAB /* ORCoreDataRemover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947DE7BC1E44A0C6003FECAB /* ORCoreDataRemover.swift */; };
 		96591EF6CAFDC815736CD0DA3F03C2B6 /* MagicalRecord+iCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E759A81A7F97FCA43F8D8447D29CB7 /* MagicalRecord+iCloud.m */; };
 		99392F8EC7223993CB7513DCF3F4E252 /* NSManagedObjectModel+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 670B6C07F289B1039F5CF3D986C4BE6F /* NSManagedObjectModel+MagicalRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C3B7B7507533450AEBDDB3A8973FC08 /* NSAttributeDescription+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D18E668B1F96A74BDAE78BE618C2863 /* NSAttributeDescription+MagicalDataImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -179,6 +180,7 @@
 		914A30C6C5AECEE251844A615C79E1E2 /* Pods-ORCoreData_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ORCoreData_Tests.modulemap"; sourceTree = "<group>"; };
 		917EC4AC0791BB47B6E9A4C6FC340587 /* Pods-ORCoreData_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ORCoreData_Tests-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		947DE7BC1E44A0C6003FECAB /* ORCoreDataRemover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ORCoreDataRemover.swift; sourceTree = "<group>"; };
 		9516630C823B76EBFC4FA92AA4D0E9C1 /* MagicalRecord+iCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+iCloud.h"; path = "MagicalRecord/Core/MagicalRecord+iCloud.h"; sourceTree = "<group>"; };
 		95C3C31EA0B7CA17A385DD5DC444C108 /* NSManagedObject+MagicalRequests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalRequests.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRequests.m"; sourceTree = "<group>"; };
 		95EE3428982FDC30DE6B64F24EC550C9 /* MagicalRecord-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord-prefix.pch"; sourceTree = "<group>"; };
@@ -458,6 +460,7 @@
 			children = (
 				262C990A4C3ADBFABC779A77E341B8FB /* ORCoreDataEntityFinderAndCreator.swift */,
 				2792256CF7D8DA2DBC3138320775CAB1 /* ORCoreDataSaver.swift */,
+				947DE7BC1E44A0C6003FECAB /* ORCoreDataRemover.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -722,6 +725,7 @@
 			files = (
 				BEE9B88C7A1A9AB63C5C4F948EA32C14 /* ORCoreData-dummy.m in Sources */,
 				42DAD8D689ABD4C02EC6F237773AEBE7 /* ORCoreDataEntityFinderAndCreator.swift in Sources */,
+				947DE7BD1E44A0C6003FECAB /* ORCoreDataRemover.swift in Sources */,
 				CB1A6C96AFF2014C779CD788A468944C /* ORCoreDataSaver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
