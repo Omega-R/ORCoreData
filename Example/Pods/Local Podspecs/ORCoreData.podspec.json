@@ -1,8 +1,8 @@
 {
   "name": "ORCoreData",
-  "version": "3.0.0",
+  "version": "3.2.0",
   "summary": "ORCoreData - components for work with CoreData",
-  "description": "ORCoreDataSaver & ORCoreDataEntityFinderAndCreator",
+  "description": "ORCoreDataSaver, ORCoreDataEntityFinderAndCreator & ORCoreDataRemover",
   "homepage": "https://bitbucket.org/omegarinc/orcoredata",
   "license": "MIT",
   "authors": {
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://bitbucket.org/omegarinc/orcoredata.git",
-    "tag": "3.0.0"
+    "tag": "3.2.0"
   },
   "platforms": {
     "ios": "8.0"
