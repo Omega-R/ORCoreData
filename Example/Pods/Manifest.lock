@@ -2,7 +2,7 @@ PODS:
   - MagicalRecord (2.3.2):
     - MagicalRecord/Core (= 2.3.2)
   - MagicalRecord/Core (2.3.2)
-  - ORCoreData (3.2.0):
+  - ORCoreData (4.0.0):
     - MagicalRecord (~> 2.3)
 
 DEPENDENCIES:
@@ -14,7 +14,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
-  ORCoreData: ca8f37e7993e72c4e3bac8733aea1a3fdf48c6af
+  ORCoreData: 71d42dc086ebd3ab839e2cc270d8b7d2c1299907
 
 PODFILE CHECKSUM: 2d2bc76aa9b4a44bc4d6d29f28bcae09d4ed387b
 
