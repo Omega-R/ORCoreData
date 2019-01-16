@@ -15,6 +15,22 @@ it, simply add the following line to your Podfile:
 pod "ORCoreData"
 ```
 
+## Example
+##### FindEntityTraitProtocol
+
+```swift
+extension CDTrack {
+    public enum FieldName: String {
+        case musicServiceStr
+        case idInMusicService
+        case id
+    }
+}
+
+extension CDTrack: FindEntityTraitProtocol {
+    public typealias key = CDTrack.FieldName
+}
+```
 ## Author
 
 Maxim Soloviev, maxim@omega-r.com
