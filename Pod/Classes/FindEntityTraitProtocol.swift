@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import MagicalRecord
 
 public protocol FindEntityTraitProtocol {
     associatedtype key: RawRepresentable where key.RawValue == String
