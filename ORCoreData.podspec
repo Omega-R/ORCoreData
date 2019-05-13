@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "ORCoreData"
-  s.version          = "4.2.5"
+  s.version          = "5.0.0"
   s.summary          = "ORCoreData - components for work with CoreData"
 
 # This description is used to generate tags and improve search results.

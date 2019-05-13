@@ -1,6 +1,6 @@
 {
   "name": "ORCoreData",
-  "version": "4.2.0",
+  "version": "5.0.0",
   "summary": "ORCoreData - components for work with CoreData",
   "description": "ORCoreDataSaver, ORCoreDataEntityFinderAndCreator & ORCoreDataRemover",
   "homepage": "https://bitbucket.org/omegarinc/orcoredata",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://bitbucket.org/omegarinc/orcoredata.git",
-    "tag": "4.2.0"
+    "tag": "5.0.0"
   },
   "platforms": {
     "ios": "8.0"

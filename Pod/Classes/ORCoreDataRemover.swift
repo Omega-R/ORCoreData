@@ -11,7 +11,7 @@ import MagicalRecord
 
 @objc open class ORCoreDataRemover: NSObject {
 
-    open static func truncateAllOfTypes(_ managedObjectTypes: [NSManagedObject.Type], inContext context: NSManagedObjectContext) {
+    public static func truncateAllOfTypes(_ managedObjectTypes: [NSManagedObject.Type], inContext context: NSManagedObjectContext) {
         for moType in managedObjectTypes {
             moType.mr_truncateAll(in: context)
         }

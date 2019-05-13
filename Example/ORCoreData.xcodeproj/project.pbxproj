@@ -330,7 +330,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ORCoreData_Example/Pods-ORCoreData_Example-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-ORCoreData_Example/Pods-ORCoreData_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MagicalRecord/MagicalRecord.framework",
 				"${BUILT_PRODUCTS_DIR}/ORCoreData/ORCoreData.framework",
 			);
@@ -341,7 +341,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ORCoreData_Example/Pods-ORCoreData_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ORCoreData_Example/Pods-ORCoreData_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FE01012CFA36ACFC089FC729 /* [CP] Embed Pods Frameworks */ = {
@@ -350,7 +350,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ORCoreData_Tests/Pods-ORCoreData_Tests-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-ORCoreData_Tests/Pods-ORCoreData_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MagicalRecord/MagicalRecord.framework",
 				"${BUILT_PRODUCTS_DIR}/ORCoreData/ORCoreData.framework",
 			);
@@ -361,7 +361,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ORCoreData_Tests/Pods-ORCoreData_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ORCoreData_Tests/Pods-ORCoreData_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

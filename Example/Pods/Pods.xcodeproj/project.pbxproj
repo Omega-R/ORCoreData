@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		049B0F382F6FEB840CD8FC12903E4F6C /* NSManagedObjectContext+MagicalThreading.h in Headers */ = {isa = PBXBuildFile; fileRef = C0073DAA577DED8C9F7C43F64F666EB9 /* NSManagedObjectContext+MagicalThreading.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0EF733D9FED8325EC6FA4B30CCC9E6B4 /* Pods-ORCoreData_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EC08A22B2C4216C7DF2ED1C18C34DB /* Pods-ORCoreData_Example-dummy.m */; };
+		0EF733D9FED8325EC6FA4B30CCC9E6B4 /* Pods-ORCoreData_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C340223D696808D75C2BECE734CC7184 /* Pods-ORCoreData_Example-dummy.m */; };
 		0F3B4801DD985E9CBFDF451E80E5207D /* ORCoreDataRemover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEC9EC9B169AB611D80D53EDE0EDCF9 /* ORCoreDataRemover.swift */; };
 		0FFDDABAA2DDA4F0BCFBF5C972026FEE /* NSEntityDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = D84C1841AB8D2C1B38A75ECCCAE6584A /* NSEntityDescription+MagicalDataImport.m */; };
 		16C3ED89DE5BE5C73262E542E53A736F /* MagicalRecord+Setup.m in Sources */ = {isa = PBXBuildFile; fileRef = D57A24FD6B89D8E8399D4AA79367CA70 /* MagicalRecord+Setup.m */; };
@@ -21,9 +21,9 @@
 		29E2065A0D8009FFAFA6DE99906A5208 /* MagicalRecord+Setup.h in Headers */ = {isa = PBXBuildFile; fileRef = 62A195F7EB2121060BF98FFE11678A06 /* MagicalRecord+Setup.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CE317CDEC81A0B8E3543853B95182B6 /* ORCoreDataSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6B5D58A9535A790537FE6736924883 /* ORCoreDataSaver.swift */; };
 		2DA1B9210186EB1CE722847642E3355F /* NSPersistentStoreCoordinator+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 33279C09A07C0A1285C2255323E88486 /* NSPersistentStoreCoordinator+MagicalRecord.m */; };
-		2DCFD5D317D3DDA76E372AB516B4F4BF /* ORCoreData-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EF0B452FF79B217A3FFB22EC261426 /* ORCoreData-dummy.m */; };
+		2DCFD5D317D3DDA76E372AB516B4F4BF /* ORCoreData-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF20DF6B0CE0AE0BA64A4132DEDFDB13 /* ORCoreData-dummy.m */; };
 		32FD26CB82B4FC3ABCEA9856C6DEB31A /* NSNumber+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = C02FBE7AA3C9AE6BEED86BEC8757AD40 /* NSNumber+MagicalDataImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3684B08341D024C816A0098A6FE9A227 /* MagicalRecord-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A5207AFDCC1BC7D0B1C47E829C213F /* MagicalRecord-dummy.m */; };
+		3684B08341D024C816A0098A6FE9A227 /* MagicalRecord-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1413D515AB2851F0712568549261C1 /* MagicalRecord-dummy.m */; };
 		39FEFAFFD9FAC76A272D7407278812F3 /* NSManagedObject+MagicalRequests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C3C31EA0B7CA17A385DD5DC444C108 /* NSManagedObject+MagicalRequests.m */; };
 		3BB5C52F3A394E5B7E77F39225FFB483 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09E9011EE92AC42635FEAF47C5BBDAF /* Foundation.framework */; };
 		3DDA3337ED274673CD97AFBD681FCFED /* NSManagedObject+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = B166E9A7CD31F32A7DFA8CA3B246FD46 /* NSManagedObject+MagicalRecord.m */; };
@@ -49,16 +49,16 @@
 		8767BC32944118104794138295CD1796 /* MagicalRecordLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D5FA4F5575558FCF9F252A79997B2F /* MagicalRecordLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C6DC9DC9079D10F9C5F93E44908BF58 /* MagicalRecordInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FCE0FD0F0498795BBBFC3D496D8C886 /* MagicalRecordInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8EC7032076CEA8A7D4F0C66636E92264 /* NSAttributeDescription+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D18E668B1F96A74BDAE78BE618C2863 /* NSAttributeDescription+MagicalDataImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F6D8A6ECD401E473E6A7C7FAD9B57BA /* MagicalRecord-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C1401490DFFE4F743D2618C3C44F93 /* MagicalRecord-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F6D8A6ECD401E473E6A7C7FAD9B57BA /* MagicalRecord-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 338196153BEBA2F4A015B7179A75CFE2 /* MagicalRecord-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9232F60076146483DA3E56B279E848C6 /* NSEntityDescription+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FDB98B5ABCE33167C214B7D81347C80 /* NSEntityDescription+MagicalDataImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9282136A17ED8CEA83163B53888F3B02 /* NSManagedObject+MagicalAggregation.m in Sources */ = {isa = PBXBuildFile; fileRef = B86AD2F268798FBEE05D24FFFA16D964 /* NSManagedObject+MagicalAggregation.m */; };
 		966ADEFEB622276D73553F8174DCCDCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09E9011EE92AC42635FEAF47C5BBDAF /* Foundation.framework */; };
 		98F45FB1C6376DBECDDACD3F78F20010 /* NSManagedObjectContext+MagicalObserving.h in Headers */ = {isa = PBXBuildFile; fileRef = A1CF2DECA730E6A8BEF16B8B7B4A5779 /* NSManagedObjectContext+MagicalObserving.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AA588E1E0C28DD95C587B16B0144FAE /* ORCoreData-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E65B8912F8039CE1EF59B2C14C5396B /* ORCoreData-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AA588E1E0C28DD95C587B16B0144FAE /* ORCoreData-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AB910B87AC60B9BA19A3B1290AE20E /* ORCoreData-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A29428CBB91B2297CAEF8332FE49E421 /* NSManagedObjectModel+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A54E6948F07243BD6BC5AC75E68236 /* NSManagedObjectModel+MagicalRecord.m */; };
 		A6AE2A37196601CAF4516E6BAC2D48F7 /* NSManagedObjectContext+MagicalThreading.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA0FD1177C4F8C1CCAE372204C84298 /* NSManagedObjectContext+MagicalThreading.m */; };
 		ACCC9D8AB8B769DB021819A45C6EF7AF /* NSObject+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB38AF9583B614E511F71E65B7CF1B4 /* NSObject+MagicalDataImport.m */; };
-		AD31DE596F82184C3FE4272B02D6CC58 /* Pods-ORCoreData_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2174A00F35F550B87973BFF9B3040074 /* Pods-ORCoreData_Tests-dummy.m */; };
+		AD31DE596F82184C3FE4272B02D6CC58 /* Pods-ORCoreData_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 319397230D37A32D9534C044A8B7436E /* Pods-ORCoreData_Tests-dummy.m */; };
 		B13BA04A507D42EAA925EE4E36B86120 /* MagicalRecord+Options.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B726141B0441B9E3C2ABC254A974553 /* MagicalRecord+Options.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7A6C2BAFC470D22F32B8D2DF8679436 /* NSPersistentStoreCoordinator+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 07FF1192499A50F050180F5CF91ADE98 /* NSPersistentStoreCoordinator+MagicalRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BDA7759FF33328ED8202E2E8A108BAC2 /* NSManagedObjectModel+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 670B6C07F289B1039F5CF3D986C4BE6F /* NSManagedObjectModel+MagicalRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -68,9 +68,9 @@
 		CE976F4639C86FB23CB5E2E2B0131458 /* MagicalImportFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1B66D4931E5C5C084448FAE15B80F3 /* MagicalImportFunctions.m */; };
 		D7CB8563B7D97140ED5D8CAD927CCFCD /* NSManagedObject+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = B099EBAEC728B4FF6D5D92E7C8DA016D /* NSManagedObject+MagicalDataImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DDDA2769024AE9505E9A9076EAB0D278 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237C308B54D0277E4D3087F7F83F4436 /* CoreData.framework */; };
-		E22F986488FAC1A7AF4256FEE04B1174 /* Pods-ORCoreData_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C077D627D4406602D8CF8C51B144442C /* Pods-ORCoreData_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E22F986488FAC1A7AF4256FEE04B1174 /* Pods-ORCoreData_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D6CBBC8FCFF62BDD71E15E0AF97AB39 /* Pods-ORCoreData_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3DE6E34BE24AF0F53ADF8035B90231B /* MagicalRecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1712BE38DA8CFF82DB67665FC9263E26 /* MagicalRecord.framework */; };
-		E50F5C19C04AA061BB2BDF40FF10DAD0 /* Pods-ORCoreData_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CEE765451DA74BADF23CE2AD52B5942 /* Pods-ORCoreData_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E50F5C19C04AA061BB2BDF40FF10DAD0 /* Pods-ORCoreData_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8DEAB42E1AA07817269174996EFA4CC /* Pods-ORCoreData_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E64A069E0DEBDF380479164F26681E2F /* MagicalImportFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 80E230C6A7E3AF32A7515E9034F71808 /* MagicalImportFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E723116B89DB669BBCA9001D420D8C44 /* NSManagedObjectContext+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = FC93D60842F3FB76BEDB3BA1E1F94A98 /* NSManagedObjectContext+MagicalRecord.m */; };
 		E933198FA27D72DC73B0EAB6520E0CB3 /* NSPersistentStore+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = DADA6FC816487FA0C862A278AE23ADE1 /* NSPersistentStore+MagicalRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -124,9 +124,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00557A44FC913324B81E9624C96F57D8 /* Pods-ORCoreData_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ORCoreData_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		00F12568425DD65219C53E112E5DDB27 /* MagicalRecordXcode7CompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalRecordXcode7CompatibilityMacros.h; path = MagicalRecord/Core/MagicalRecordXcode7CompatibilityMacros.h; sourceTree = "<group>"; };
 		0248F4AABA45DCA3666B1EE776FAF13B /* MagicalRecord+Actions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+Actions.m"; path = "MagicalRecord/Core/MagicalRecord+Actions.m"; sourceTree = "<group>"; };
-		02C3B98C5190643E46539164E4C99746 /* MagicalRecord-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord-prefix.pch"; sourceTree = "<group>"; };
+		04AB910B87AC60B9BA19A3B1290AE20E /* ORCoreData-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ORCoreData-umbrella.h"; sourceTree = "<group>"; };
 		07FF1192499A50F050180F5CF91ADE98 /* NSPersistentStoreCoordinator+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSPersistentStoreCoordinator+MagicalRecord.h"; path = "MagicalRecord/Categories/NSPersistentStoreCoordinator+MagicalRecord.h"; sourceTree = "<group>"; };
 		0FB38AF9583B614E511F71E65B7CF1B4 /* NSObject+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSObject+MagicalDataImport.m"; sourceTree = "<group>"; };
 		0FDB98B5ABCE33167C214B7D81347C80 /* NSEntityDescription+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSEntityDescription+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSEntityDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
@@ -134,99 +135,100 @@
 		164C75E8723786FC10EBFE8F2CD1E5EB /* NSString+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSString+MagicalDataImport.m"; sourceTree = "<group>"; };
 		1705AB266201E1E4BC3C3B71BB8F06D1 /* NSManagedObject+MagicalFinders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalFinders.h"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalFinders.h"; sourceTree = "<group>"; };
 		1712BE38DA8CFF82DB67665FC9263E26 /* MagicalRecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MagicalRecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		190454EBC06BCA5967B8DF262A2D5D2E /* MagicalRecord.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MagicalRecord.modulemap; sourceTree = "<group>"; };
+		196E89D42718B334416BCD9A1FD2CABD /* ORCoreData.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ORCoreData.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1D3FC98F169C8A7B95EF447BCF4A9E4D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1D7295EF96D4F287318CE30B111E63DC /* NSObject+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSObject+MagicalDataImport.h"; sourceTree = "<group>"; };
-		20859CD89ADB2EACB27D004770149BCA /* ORCoreData.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ORCoreData.xcconfig; sourceTree = "<group>"; };
-		2174A00F35F550B87973BFF9B3040074 /* Pods-ORCoreData_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ORCoreData_Tests-dummy.m"; sourceTree = "<group>"; };
+		213E982279F46D6246A17F776FCF511B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22E1170127C4C774AD8E8709A1C4F93D /* Pods-ORCoreData_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ORCoreData_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		237C308B54D0277E4D3087F7F83F4436 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		2403AF08E2CE9B0AC4AB30707AC17744 /* Pods-ORCoreData_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ORCoreData_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2AF872DAE3CFEF13120AA26B1AF82E72 /* NSNumber+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSNumber+MagicalDataImport.m"; sourceTree = "<group>"; };
+		2C2CF063A5BB9BB366510A25974179CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30A43FDA1679857682781F6C89A6D392 /* NSManagedObjectContext+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalRecord.h"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalRecord.h"; sourceTree = "<group>"; };
-		32EFAFCFAFBD472CC57CDA5D9BDE6985 /* Pods_ORCoreData_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ORCoreData_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		319397230D37A32D9534C044A8B7436E /* Pods-ORCoreData_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ORCoreData_Tests-dummy.m"; sourceTree = "<group>"; };
+		32EFAFCFAFBD472CC57CDA5D9BDE6985 /* Pods_ORCoreData_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ORCoreData_Tests.framework; path = "Pods-ORCoreData_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33279C09A07C0A1285C2255323E88486 /* NSPersistentStoreCoordinator+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSPersistentStoreCoordinator+MagicalRecord.m"; path = "MagicalRecord/Categories/NSPersistentStoreCoordinator+MagicalRecord.m"; sourceTree = "<group>"; };
+		338196153BEBA2F4A015B7179A75CFE2 /* MagicalRecord-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord-umbrella.h"; sourceTree = "<group>"; };
 		342CB340E4AA5ABE64B891617BB3648D /* MagicalRecord+Actions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+Actions.h"; path = "MagicalRecord/Core/MagicalRecord+Actions.h"; sourceTree = "<group>"; };
+		34D8C818BECED4A05407A284572F72A2 /* ORCoreData.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ORCoreData.modulemap; sourceTree = "<group>"; };
 		3546AC1DD097385C2943750BEBD72873 /* NSString+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSString+MagicalDataImport.h"; sourceTree = "<group>"; };
+		37471956FB7F61A28AD99BCB33914975 /* Pods-ORCoreData_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ORCoreData_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3B726141B0441B9E3C2ABC254A974553 /* MagicalRecord+Options.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+Options.h"; path = "MagicalRecord/Core/MagicalRecord+Options.h"; sourceTree = "<group>"; };
+		3D6CBBC8FCFF62BDD71E15E0AF97AB39 /* Pods-ORCoreData_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ORCoreData_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3DEC9EC9B169AB611D80D53EDE0EDCF9 /* ORCoreDataRemover.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ORCoreDataRemover.swift; path = Pod/Classes/ORCoreDataRemover.swift; sourceTree = "<group>"; };
-		3E65B8912F8039CE1EF59B2C14C5396B /* ORCoreData-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ORCoreData-umbrella.h"; sourceTree = "<group>"; };
-		3EC7B1FEBEB13421518595F5E2FA5FD9 /* Pods-ORCoreData_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ORCoreData_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4117B36A2E13991EC2A620645056AF5C /* MagicalRecord+ErrorHandling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+ErrorHandling.h"; path = "MagicalRecord/Core/MagicalRecord+ErrorHandling.h"; sourceTree = "<group>"; };
-		42DAAE482170722DAB717FA29AFF0B44 /* MagicalRecord.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MagicalRecord.modulemap; sourceTree = "<group>"; };
+		46D04A23E6AA0667F4AA2B74CA0E57D6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AE5ADD77C2724B1AF070B02CB34D2BB /* MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalRecord.h; path = MagicalRecord/MagicalRecord.h; sourceTree = "<group>"; };
-		52EC08A22B2C4216C7DF2ED1C18C34DB /* Pods-ORCoreData_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ORCoreData_Example-dummy.m"; sourceTree = "<group>"; };
-		53EF0B452FF79B217A3FFB22EC261426 /* ORCoreData-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ORCoreData-dummy.m"; sourceTree = "<group>"; };
-		5A0ABB7A580C8C9B8CD93326DD4A1215 /* ORCoreData-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ORCoreData-Info.plist"; sourceTree = "<group>"; };
+		4AFB727664AEB9A3F1DB75AE557F0CCA /* Pods-ORCoreData_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ORCoreData_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4BBC3B760F58964F9EBD27713BCA9B53 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		515718204A04770421671D05A44175F9 /* Pods-ORCoreData_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ORCoreData_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5BD74193B05BAC88EFF5DB5C68407750 /* NSManagedObject+MagicalAggregation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalAggregation.h"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalAggregation.h"; sourceTree = "<group>"; };
-		5D631BF00BC0B181C884266702307852 /* Pods-ORCoreData_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ORCoreData_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		609C85AB615B766930CC61EE84773020 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		61455B76A27E5F0E94833816829A27E6 /* Pods-ORCoreData_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ORCoreData_Example-resources.sh"; sourceTree = "<group>"; };
 		62A195F7EB2121060BF98FFE11678A06 /* MagicalRecord+Setup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+Setup.h"; path = "MagicalRecord/Core/MagicalRecord+Setup.h"; sourceTree = "<group>"; };
-		630DE9FBEA52588F5909F1A236033E60 /* Pods-ORCoreData_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ORCoreData_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6344E228E2E43970176083E36F234E4F /* MagicalRecord+ShorthandMethods.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+ShorthandMethods.m"; path = "MagicalRecord/Core/MagicalRecord+ShorthandMethods.m"; sourceTree = "<group>"; };
 		670B6C07F289B1039F5CF3D986C4BE6F /* NSManagedObjectModel+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectModel+MagicalRecord.h"; path = "MagicalRecord/Categories/NSManagedObjectModel+MagicalRecord.h"; sourceTree = "<group>"; };
 		695DAA5A5774BB0E117A6CBDC5E70311 /* MagicalRecordInternal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MagicalRecordInternal.m; path = MagicalRecord/Core/MagicalRecordInternal.m; sourceTree = "<group>"; };
 		6A1C89C7FB8573F97E04EE22C68FF63A /* NSRelationshipDescription+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSRelationshipDescription+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSRelationshipDescription+MagicalDataImport.m"; sourceTree = "<group>"; };
-		6CEE765451DA74BADF23CE2AD52B5942 /* Pods-ORCoreData_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ORCoreData_Example-umbrella.h"; sourceTree = "<group>"; };
+		6A654AB5C9A1EE5E4B5479FA5BAF87C2 /* Pods-ORCoreData_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ORCoreData_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6C1413D515AB2851F0712568549261C1 /* MagicalRecord-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MagicalRecord-dummy.m"; sourceTree = "<group>"; };
 		750BFB0D4E2D0FE9E63D656B3BC0451D /* NSAttributeDescription+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributeDescription+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSAttributeDescription+MagicalDataImport.m"; sourceTree = "<group>"; };
-		7C7E7A50B535157FAC5F365F7E3F2C63 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		7D0D6FCCE76D3C69EAEB39F3449CD4F7 /* ORCoreData.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ORCoreData.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7D86C8E3FC84D95384F4BD232963A8ED /* NSManagedObjectContext+MagicalSaves.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalSaves.h"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalSaves.h"; sourceTree = "<group>"; };
 		7FCE0FD0F0498795BBBFC3D496D8C886 /* MagicalRecordInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalRecordInternal.h; path = MagicalRecord/Core/MagicalRecordInternal.h; sourceTree = "<group>"; };
 		808F2CD97A56B3119B634243053E2D63 /* NSManagedObject+MagicalRequests.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalRequests.h"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRequests.h"; sourceTree = "<group>"; };
 		80CA5FB04744352364FFEF7AEDC4E9D8 /* NSManagedObject+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalDataImport.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalDataImport.m"; sourceTree = "<group>"; };
 		80E230C6A7E3AF32A7515E9034F71808 /* MagicalImportFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalImportFunctions.h; path = MagicalRecord/Categories/DataImport/MagicalImportFunctions.h; sourceTree = "<group>"; };
 		840211C51227A62DFA588A9DA0611067 /* NSManagedObjectContext+MagicalChainSave.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalChainSave.h"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalChainSave.h"; sourceTree = "<group>"; };
-		8418428F50057A329336ABC4D177696A /* Pods-ORCoreData_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ORCoreData_Example.modulemap"; sourceTree = "<group>"; };
 		875F1067E9522D522A4BA1904D9C7392 /* FindEntityTraitProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FindEntityTraitProtocol.swift; path = Pod/Classes/FindEntityTraitProtocol.swift; sourceTree = "<group>"; };
 		888A5493EA756BF80E08F5687BF3A35A /* NSRelationshipDescription+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSRelationshipDescription+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSRelationshipDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
 		8D18E668B1F96A74BDAE78BE618C2863 /* NSAttributeDescription+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributeDescription+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSAttributeDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
+		902D218032D400C3C3E043326F9E6CF3 /* Pods-ORCoreData_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ORCoreData_Tests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		949232B651912F31CDB75CB2FF6DE4C6 /* Pods-ORCoreData_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ORCoreData_Example.modulemap"; sourceTree = "<group>"; };
 		9516630C823B76EBFC4FA92AA4D0E9C1 /* MagicalRecord+iCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+iCloud.h"; path = "MagicalRecord/Core/MagicalRecord+iCloud.h"; sourceTree = "<group>"; };
 		95C3C31EA0B7CA17A385DD5DC444C108 /* NSManagedObject+MagicalRequests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalRequests.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRequests.m"; sourceTree = "<group>"; };
+		963C429AA50C66CF0C5D92E6736D0450 /* MagicalRecord-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord-prefix.pch"; sourceTree = "<group>"; };
 		99D6E7096363A1E2F5C15E5560B0F0B2 /* ORCoreDataEntityFinderAndCreator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ORCoreDataEntityFinderAndCreator.swift; path = Pod/Classes/ORCoreDataEntityFinderAndCreator.swift; sourceTree = "<group>"; };
 		9C1B66D4931E5C5C084448FAE15B80F3 /* MagicalImportFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MagicalImportFunctions.m; path = MagicalRecord/Categories/DataImport/MagicalImportFunctions.m; sourceTree = "<group>"; };
-		9CB329E1A702EA08CD4469985D1273AF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		A040DE115975C2B0CFBC844435FA23A4 /* Pods-ORCoreData_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ORCoreData_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A0581FB09D1240573829E61E5C65F5C6 /* NSManagedObjectContext+MagicalSaves.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalSaves.m"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalSaves.m"; sourceTree = "<group>"; };
 		A1CF2DECA730E6A8BEF16B8B7B4A5779 /* NSManagedObjectContext+MagicalObserving.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalObserving.h"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalObserving.h"; sourceTree = "<group>"; };
-		A2971E89E92F95434B3226A5AAF2599C /* Pods-ORCoreData_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ORCoreData_Tests.modulemap"; sourceTree = "<group>"; };
-		A33B0FCD526D7D39BAEACDE30B24A251 /* ORCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ORCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A33B0FCD526D7D39BAEACDE30B24A251 /* ORCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ORCoreData.framework; path = ORCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43DF2276B285CFB9F2A35753EDDCB54 /* Pods-ORCoreData_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ORCoreData_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A73982AA85AFAF00D44113BCA64164CF /* Pods-ORCoreData_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ORCoreData_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A8A54E6948F07243BD6BC5AC75E68236 /* NSManagedObjectModel+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectModel+MagicalRecord.m"; path = "MagicalRecord/Categories/NSManagedObjectModel+MagicalRecord.m"; sourceTree = "<group>"; };
-		ADE334D8AACB6C235F96A471699629A8 /* Pods-ORCoreData_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ORCoreData_Tests-Info.plist"; sourceTree = "<group>"; };
 		AE803ED0A573697BA0A32EC3DCB82FD6 /* MagicalRecord+Options.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+Options.m"; path = "MagicalRecord/Core/MagicalRecord+Options.m"; sourceTree = "<group>"; };
 		B099EBAEC728B4FF6D5D92E7C8DA016D /* NSManagedObject+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalDataImport.h"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalDataImport.h"; sourceTree = "<group>"; };
 		B166E9A7CD31F32A7DFA8CA3B246FD46 /* NSManagedObject+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalRecord.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRecord.m"; sourceTree = "<group>"; };
 		B20AAD5108C94EFEDD7E5FF37B63612E /* NSPersistentStore+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSPersistentStore+MagicalRecord.m"; path = "MagicalRecord/Categories/NSPersistentStore+MagicalRecord.m"; sourceTree = "<group>"; };
-		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B5AC008A5E7484688CD391D224122FE9 /* Pods-ORCoreData_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ORCoreData_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		B86AD2F268798FBEE05D24FFFA16D964 /* NSManagedObject+MagicalAggregation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalAggregation.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalAggregation.m"; sourceTree = "<group>"; };
+		B8DEAB42E1AA07817269174996EFA4CC /* Pods-ORCoreData_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ORCoreData_Example-umbrella.h"; sourceTree = "<group>"; };
 		BBA0FD1177C4F8C1CCAE372204C84298 /* NSManagedObjectContext+MagicalThreading.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalThreading.m"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalThreading.m"; sourceTree = "<group>"; };
-		BBF61FB6A2F789EA7093FBF5CD0F4266 /* Pods-ORCoreData_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ORCoreData_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BE441B254D0C83F64F26CEB34FD890AB /* Pods-ORCoreData_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ORCoreData_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C0073DAA577DED8C9F7C43F64F666EB9 /* NSManagedObjectContext+MagicalThreading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalThreading.h"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalThreading.h"; sourceTree = "<group>"; };
 		C02FBE7AA3C9AE6BEED86BEC8757AD40 /* NSNumber+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSNumber+MagicalDataImport.h"; sourceTree = "<group>"; };
-		C077D627D4406602D8CF8C51B144442C /* Pods-ORCoreData_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ORCoreData_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C09E9011EE92AC42635FEAF47C5BBDAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		C331CA822140505254A9A32F31944744 /* NSManagedObject+MagicalFinders.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalFinders.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalFinders.m"; sourceTree = "<group>"; };
-		C666992E03550F7143FC84D46B644819 /* Pods-ORCoreData_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ORCoreData_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CD45FDBDD7463D898429A720B1F5E518 /* ORCoreData.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ORCoreData.modulemap; sourceTree = "<group>"; };
-		CFDCE17A24F5F00C29133E3F3EC7AED0 /* ORCoreData-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ORCoreData-prefix.pch"; sourceTree = "<group>"; };
-		D0A5207AFDCC1BC7D0B1C47E829C213F /* MagicalRecord-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MagicalRecord-dummy.m"; sourceTree = "<group>"; };
-		D0E4FFC4473D2ED59777C8E0E85801F9 /* MagicalRecord.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MagicalRecord.xcconfig; sourceTree = "<group>"; };
+		C340223D696808D75C2BECE734CC7184 /* Pods-ORCoreData_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ORCoreData_Example-dummy.m"; sourceTree = "<group>"; };
+		C98319DD6233B2AA0A77BFB659B2DADD /* MagicalRecord.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MagicalRecord.xcconfig; sourceTree = "<group>"; };
 		D1043D8DBA3540F5EA0DDFD02921515C /* MagicalRecord+ShorthandMethods.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+ShorthandMethods.h"; path = "MagicalRecord/Core/MagicalRecord+ShorthandMethods.h"; sourceTree = "<group>"; };
-		D4B2AC01ACD36DD2719FD183A8ED7210 /* Pods_ORCoreData_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ORCoreData_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D51984B9A1B5D805AE75D5C0FF66E22D /* MagicalRecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MagicalRecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B2AC01ACD36DD2719FD183A8ED7210 /* Pods_ORCoreData_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ORCoreData_Example.framework; path = "Pods-ORCoreData_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51984B9A1B5D805AE75D5C0FF66E22D /* MagicalRecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MagicalRecord.framework; path = MagicalRecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D57A24FD6B89D8E8399D4AA79367CA70 /* MagicalRecord+Setup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+Setup.m"; path = "MagicalRecord/Core/MagicalRecord+Setup.m"; sourceTree = "<group>"; };
+		D7E76C6311370A30A7C491934A19CA7A /* ORCoreData-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ORCoreData-prefix.pch"; sourceTree = "<group>"; };
 		D84C1841AB8D2C1B38A75ECCCAE6584A /* NSEntityDescription+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSEntityDescription+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSEntityDescription+MagicalDataImport.m"; sourceTree = "<group>"; };
 		DADA6FC816487FA0C862A278AE23ADE1 /* NSPersistentStore+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSPersistentStore+MagicalRecord.h"; path = "MagicalRecord/Categories/NSPersistentStore+MagicalRecord.h"; sourceTree = "<group>"; };
+		DE7B1A1A6436F6689ADB383BB1889C90 /* Pods-ORCoreData_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ORCoreData_Tests-resources.sh"; sourceTree = "<group>"; };
 		DEFC6184E62A4E947ECB97805A976EDC /* NSManagedObjectContext+MagicalChainSave.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalChainSave.m"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalChainSave.m"; sourceTree = "<group>"; };
 		DF6B5D58A9535A790537FE6736924883 /* ORCoreDataSaver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ORCoreDataSaver.swift; path = Pod/Classes/ORCoreDataSaver.swift; sourceTree = "<group>"; };
 		E1CDA852C63C883F7BB8E4A194A6409A /* NSManagedObjectContext+MagicalObserving.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalObserving.m"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalObserving.m"; sourceTree = "<group>"; };
-		E2C1401490DFFE4F743D2618C3C44F93 /* MagicalRecord-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord-umbrella.h"; sourceTree = "<group>"; };
-		E31669B7AE9B2F24EC9477E44EC4AA95 /* Pods-ORCoreData_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ORCoreData_Example-Info.plist"; sourceTree = "<group>"; };
 		E3E759A81A7F97FCA43F8D8447D29CB7 /* MagicalRecord+iCloud.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+iCloud.m"; path = "MagicalRecord/Core/MagicalRecord+iCloud.m"; sourceTree = "<group>"; };
 		E7258370531A062D8C169E7289759F68 /* MagicalRecord+ErrorHandling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+ErrorHandling.m"; path = "MagicalRecord/Core/MagicalRecord+ErrorHandling.m"; sourceTree = "<group>"; };
-		E8313D7508A708B1B7C1CFE880A240C8 /* Pods-ORCoreData_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ORCoreData_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E89B4185078BA2A8D571CB4FE56073D2 /* MagicalRecord-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MagicalRecord-Info.plist"; sourceTree = "<group>"; };
-		E965B47785836C60226898E229333F90 /* Pods-ORCoreData_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ORCoreData_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EEDBE7D25919731F81FAC5276268C077 /* MagicalRecordDeprecationMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalRecordDeprecationMacros.h; path = MagicalRecord/Core/MagicalRecordDeprecationMacros.h; sourceTree = "<group>"; };
-		F291D9DA1064C3DA75910BACCAE44AD4 /* Pods-ORCoreData_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ORCoreData_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EF20DF6B0CE0AE0BA64A4132DEDFDB13 /* ORCoreData-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ORCoreData-dummy.m"; sourceTree = "<group>"; };
 		F3D5FA4F5575558FCF9F252A79997B2F /* MagicalRecordLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalRecordLogging.h; path = MagicalRecord/Core/MagicalRecordLogging.h; sourceTree = "<group>"; };
 		FC93D60842F3FB76BEDB3BA1E1F94A98 /* NSManagedObjectContext+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalRecord.m"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalRecord.m"; sourceTree = "<group>"; };
+		FD89BFDD5A68810CC5C2DF0530F58259 /* ORCoreData.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ORCoreData.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -267,12 +269,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		302E29F99B193BE9A05B1873F9CF75DE /* Pods-ORCoreData_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				213E982279F46D6246A17F776FCF511B /* Info.plist */,
+				902D218032D400C3C3E043326F9E6CF3 /* Pods-ORCoreData_Tests.modulemap */,
+				37471956FB7F61A28AD99BCB33914975 /* Pods-ORCoreData_Tests-acknowledgements.markdown */,
+				22E1170127C4C774AD8E8709A1C4F93D /* Pods-ORCoreData_Tests-acknowledgements.plist */,
+				319397230D37A32D9534C044A8B7436E /* Pods-ORCoreData_Tests-dummy.m */,
+				B5AC008A5E7484688CD391D224122FE9 /* Pods-ORCoreData_Tests-frameworks.sh */,
+				DE7B1A1A6436F6689ADB383BB1889C90 /* Pods-ORCoreData_Tests-resources.sh */,
+				3D6CBBC8FCFF62BDD71E15E0AF97AB39 /* Pods-ORCoreData_Tests-umbrella.h */,
+				515718204A04770421671D05A44175F9 /* Pods-ORCoreData_Tests.debug.xcconfig */,
+				00557A44FC913324B81E9624C96F57D8 /* Pods-ORCoreData_Tests.release.xcconfig */,
+			);
+			name = "Pods-ORCoreData_Tests";
+			path = "Target Support Files/Pods-ORCoreData_Tests";
+			sourceTree = "<group>";
+		};
 		3DC381B66208E692929DAF1C8CBEA6B4 /* MagicalRecord */ = {
 			isa = PBXGroup;
 			children = (
 				8E9CDD01AF78B71941FDBC271B49726C /* Core */,
-				9148FBCBE67B165B7DDAEC09C3CED858 /* Support Files */,
+				C7382EB1791640A86C2EF8B0E767109C /* Support Files */,
 			);
+			name = MagicalRecord;
 			path = MagicalRecord;
 			sourceTree = "<group>";
 		};
@@ -284,39 +305,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		5F5E8DEDBFF51C358EF8242C91E4AD3B /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				9CB329E1A702EA08CD4469985D1273AF /* LICENSE */,
-				7D0D6FCCE76D3C69EAEB39F3449CD4F7 /* ORCoreData.podspec */,
-				7C7E7A50B535157FAC5F365F7E3F2C63 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		62D4DDF1EC83B0AFEDC632DF03D466D9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CD45FDBDD7463D898429A720B1F5E518 /* ORCoreData.modulemap */,
-				20859CD89ADB2EACB27D004770149BCA /* ORCoreData.xcconfig */,
-				53EF0B452FF79B217A3FFB22EC261426 /* ORCoreData-dummy.m */,
-				5A0ABB7A580C8C9B8CD93326DD4A1215 /* ORCoreData-Info.plist */,
-				CFDCE17A24F5F00C29133E3F3EC7AED0 /* ORCoreData-prefix.pch */,
-				3E65B8912F8039CE1EF59B2C14C5396B /* ORCoreData-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ORCoreData";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				A96D1134F39F25F1AEBF94E9711FF816 /* Development Pods */,
 				E33F5E44FBD6039EDAECC80A253F535C /* Frameworks */,
 				4D5E0E861088AA9B819EDC0D83875BDF /* Pods */,
 				86C9302031688E1CD2C6949AC2C679E0 /* Products */,
-				9DC57F92BC3613B69C001F097FB2F853 /* Targets Support Files */,
+				8A6E11C2BB085345A812AF537E867FC4 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -329,6 +326,15 @@
 				32EFAFCFAFBD472CC57CDA5D9BDE6985 /* Pods_ORCoreData_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8A6E11C2BB085345A812AF537E867FC4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD82D7439944876EA161D4B2BB9CFC88 /* Pods-ORCoreData_Example */,
+				302E29F99B193BE9A05B1873F9CF75DE /* Pods-ORCoreData_Tests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		8E9CDD01AF78B71941FDBC271B49726C /* Core */ = {
@@ -396,44 +402,18 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		9148FBCBE67B165B7DDAEC09C3CED858 /* Support Files */ = {
+		91C01AF0054B2482E5DB4BE9E056768A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				42DAAE482170722DAB717FA29AFF0B44 /* MagicalRecord.modulemap */,
-				D0E4FFC4473D2ED59777C8E0E85801F9 /* MagicalRecord.xcconfig */,
-				D0A5207AFDCC1BC7D0B1C47E829C213F /* MagicalRecord-dummy.m */,
-				E89B4185078BA2A8D571CB4FE56073D2 /* MagicalRecord-Info.plist */,
-				02C3B98C5190643E46539164E4C99746 /* MagicalRecord-prefix.pch */,
-				E2C1401490DFFE4F743D2618C3C44F93 /* MagicalRecord-umbrella.h */,
+				4BBC3B760F58964F9EBD27713BCA9B53 /* Info.plist */,
+				34D8C818BECED4A05407A284572F72A2 /* ORCoreData.modulemap */,
+				FD89BFDD5A68810CC5C2DF0530F58259 /* ORCoreData.xcconfig */,
+				EF20DF6B0CE0AE0BA64A4132DEDFDB13 /* ORCoreData-dummy.m */,
+				D7E76C6311370A30A7C491934A19CA7A /* ORCoreData-prefix.pch */,
+				04AB910B87AC60B9BA19A3B1290AE20E /* ORCoreData-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/MagicalRecord";
-			sourceTree = "<group>";
-		};
-		9DC57F92BC3613B69C001F097FB2F853 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F1602B82F296C14AE019A882DA9BA47E /* Pods-ORCoreData_Example */,
-				A38FF72535D4A3D96DDF1DAA3CB689EA /* Pods-ORCoreData_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		A38FF72535D4A3D96DDF1DAA3CB689EA /* Pods-ORCoreData_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				A2971E89E92F95434B3226A5AAF2599C /* Pods-ORCoreData_Tests.modulemap */,
-				C666992E03550F7143FC84D46B644819 /* Pods-ORCoreData_Tests-acknowledgements.markdown */,
-				3EC7B1FEBEB13421518595F5E2FA5FD9 /* Pods-ORCoreData_Tests-acknowledgements.plist */,
-				2174A00F35F550B87973BFF9B3040074 /* Pods-ORCoreData_Tests-dummy.m */,
-				BE441B254D0C83F64F26CEB34FD890AB /* Pods-ORCoreData_Tests-frameworks.sh */,
-				ADE334D8AACB6C235F96A471699629A8 /* Pods-ORCoreData_Tests-Info.plist */,
-				C077D627D4406602D8CF8C51B144442C /* Pods-ORCoreData_Tests-umbrella.h */,
-				BBF61FB6A2F789EA7093FBF5CD0F4266 /* Pods-ORCoreData_Tests.debug.xcconfig */,
-				E965B47785836C60226898E229333F90 /* Pods-ORCoreData_Tests.release.xcconfig */,
-			);
-			name = "Pods-ORCoreData_Tests";
-			path = "Target Support Files/Pods-ORCoreData_Tests";
+			path = "Example/Pods/Target Support Files/ORCoreData";
 			sourceTree = "<group>";
 		};
 		A96D1134F39F25F1AEBF94E9711FF816 /* Development Pods */ = {
@@ -453,6 +433,20 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C7382EB1791640A86C2EF8B0E767109C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46D04A23E6AA0667F4AA2B74CA0E57D6 /* Info.plist */,
+				190454EBC06BCA5967B8DF262A2D5D2E /* MagicalRecord.modulemap */,
+				C98319DD6233B2AA0A77BFB659B2DADD /* MagicalRecord.xcconfig */,
+				6C1413D515AB2851F0712568549261C1 /* MagicalRecord-dummy.m */,
+				963C429AA50C66CF0C5D92E6736D0450 /* MagicalRecord-prefix.pch */,
+				338196153BEBA2F4A015B7179A75CFE2 /* MagicalRecord-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MagicalRecord";
+			sourceTree = "<group>";
+		};
 		D79A92168288814D2F498C17C6F347E6 /* ORCoreData */ = {
 			isa = PBXGroup;
 			children = (
@@ -460,8 +454,8 @@
 				99D6E7096363A1E2F5C15E5560B0F0B2 /* ORCoreDataEntityFinderAndCreator.swift */,
 				3DEC9EC9B169AB611D80D53EDE0EDCF9 /* ORCoreDataRemover.swift */,
 				DF6B5D58A9535A790537FE6736924883 /* ORCoreDataSaver.swift */,
-				5F5E8DEDBFF51C358EF8242C91E4AD3B /* Pod */,
-				62D4DDF1EC83B0AFEDC632DF03D466D9 /* Support Files */,
+				F43610624C607048B5A5B4E57859BC36 /* Pod */,
+				91C01AF0054B2482E5DB4BE9E056768A /* Support Files */,
 			);
 			name = ORCoreData;
 			path = ../..;
@@ -476,18 +470,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F1602B82F296C14AE019A882DA9BA47E /* Pods-ORCoreData_Example */ = {
+		F43610624C607048B5A5B4E57859BC36 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				8418428F50057A329336ABC4D177696A /* Pods-ORCoreData_Example.modulemap */,
-				5D631BF00BC0B181C884266702307852 /* Pods-ORCoreData_Example-acknowledgements.markdown */,
-				F291D9DA1064C3DA75910BACCAE44AD4 /* Pods-ORCoreData_Example-acknowledgements.plist */,
-				52EC08A22B2C4216C7DF2ED1C18C34DB /* Pods-ORCoreData_Example-dummy.m */,
-				A040DE115975C2B0CFBC844435FA23A4 /* Pods-ORCoreData_Example-frameworks.sh */,
-				E31669B7AE9B2F24EC9477E44EC4AA95 /* Pods-ORCoreData_Example-Info.plist */,
-				6CEE765451DA74BADF23CE2AD52B5942 /* Pods-ORCoreData_Example-umbrella.h */,
-				630DE9FBEA52588F5909F1A236033E60 /* Pods-ORCoreData_Example.debug.xcconfig */,
-				E8313D7508A708B1B7C1CFE880A240C8 /* Pods-ORCoreData_Example.release.xcconfig */,
+				609C85AB615B766930CC61EE84773020 /* LICENSE */,
+				196E89D42718B334416BCD9A1FD2CABD /* ORCoreData.podspec */,
+				1D3FC98F169C8A7B95EF447BCF4A9E4D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FD82D7439944876EA161D4B2BB9CFC88 /* Pods-ORCoreData_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2C2CF063A5BB9BB366510A25974179CB /* Info.plist */,
+				949232B651912F31CDB75CB2FF6DE4C6 /* Pods-ORCoreData_Example.modulemap */,
+				6A654AB5C9A1EE5E4B5479FA5BAF87C2 /* Pods-ORCoreData_Example-acknowledgements.markdown */,
+				A43DF2276B285CFB9F2A35753EDDCB54 /* Pods-ORCoreData_Example-acknowledgements.plist */,
+				C340223D696808D75C2BECE734CC7184 /* Pods-ORCoreData_Example-dummy.m */,
+				A73982AA85AFAF00D44113BCA64164CF /* Pods-ORCoreData_Example-frameworks.sh */,
+				61455B76A27E5F0E94833816829A27E6 /* Pods-ORCoreData_Example-resources.sh */,
+				B8DEAB42E1AA07817269174996EFA4CC /* Pods-ORCoreData_Example-umbrella.h */,
+				4AFB727664AEB9A3F1DB75AE557F0CCA /* Pods-ORCoreData_Example.debug.xcconfig */,
+				2403AF08E2CE9B0AC4AB30707AC17744 /* Pods-ORCoreData_Example.release.xcconfig */,
 			);
 			name = "Pods-ORCoreData_Example";
 			path = "Target Support Files/Pods-ORCoreData_Example";
@@ -799,9 +804,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0C7F849C4C4AE30744FE5C68806C8B4E /* Release */ = {
+		02A07E9D92C4D9B018F50CCC728E4E21 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8313D7508A708B1B7C1CFE880A240C8 /* Pods-ORCoreData_Example.release.xcconfig */;
+			baseConfigurationReference = 4AFB727664AEB9A3F1DB75AE557F0CCA /* Pods-ORCoreData_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -813,7 +818,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ORCoreData_Example/Pods-ORCoreData_Example-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ORCoreData_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -827,138 +832,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1547DA524EBFAD80BBE59F8A49BE63F3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		3111E9587EA81B3D970E80AFB9BE68B6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBF61FB6A2F789EA7093FBF5CD0F4266 /* Pods-ORCoreData_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ORCoreData_Tests/Pods-ORCoreData_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ORCoreData_Tests/Pods-ORCoreData_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		59B5DFCD0CA588D88E4C3F63F4854A6F /* Debug */ = {
+		4C7AB3F4DEAF6370DF395F802894EE8D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20859CD89ADB2EACB27D004770149BCA /* ORCoreData.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ORCoreData/ORCoreData-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ORCoreData/ORCoreData-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ORCoreData/ORCoreData.modulemap";
-				PRODUCT_MODULE_NAME = ORCoreData;
-				PRODUCT_NAME = ORCoreData;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A06785F6EE55B0F7076DAB94A907C13C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0E4FFC4473D2ED59777C8E0E85801F9 /* MagicalRecord.xcconfig */;
+			baseConfigurationReference = C98319DD6233B2AA0A77BFB659B2DADD /* MagicalRecord.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -970,7 +851,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/MagicalRecord/MagicalRecord-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MagicalRecord/MagicalRecord-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/MagicalRecord/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -988,7 +869,7 @@
 			};
 			name = Release;
 		};
-		A3EB25F4025C917380964E3F08A56321 /* Debug */ = {
+		6C6EACA84DA9A4D8A1E4E2501D3848D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1020,6 +901,8 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1052,9 +935,40 @@
 			};
 			name = Debug;
 		};
-		B09B65947AAF25899A89AD1A180563FD /* Release */ = {
+		6F8DF43245A912492420174F4FC7067B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E965B47785836C60226898E229333F90 /* Pods-ORCoreData_Tests.release.xcconfig */;
+			baseConfigurationReference = FD89BFDD5A68810CC5C2DF0530F58259 /* ORCoreData.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ORCoreData/ORCoreData-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ORCoreData/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ORCoreData/ORCoreData.modulemap";
+				PRODUCT_MODULE_NAME = ORCoreData;
+				PRODUCT_NAME = ORCoreData;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7075837A68CF2C4664668EB42B27CA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00557A44FC913324B81E9624C96F57D8 /* Pods-ORCoreData_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1066,7 +980,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ORCoreData_Tests/Pods-ORCoreData_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ORCoreData_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1086,9 +1000,76 @@
 			};
 			name = Release;
 		};
-		B57ABF9BE2B4C64E62F37902B334B4CD /* Debug */ = {
+		9574F001E890987C0B10C963FE3B97A1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0E4FFC4473D2ED59777C8E0E85801F9 /* MagicalRecord.xcconfig */;
+			baseConfigurationReference = 2403AF08E2CE9B0AC4AB30707AC17744 /* Pods-ORCoreData_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ORCoreData_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ORCoreData_Example/Pods-ORCoreData_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		973F022F4745D49BBD9B3A98FCDCD978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 515718204A04770421671D05A44175F9 /* Pods-ORCoreData_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ORCoreData_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ORCoreData_Tests/Pods-ORCoreData_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C8B081A5A8D5952A0235971806EE2286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C98319DD6233B2AA0A77BFB659B2DADD /* MagicalRecord.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1100,7 +1081,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/MagicalRecord/MagicalRecord-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MagicalRecord/MagicalRecord-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/MagicalRecord/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1117,42 +1098,71 @@
 			};
 			name = Debug;
 		};
-		BB9FD065CBC75EBE0472A52048D60F34 /* Debug */ = {
+		D9B851E8D67D359282551F91AF242887 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 630DE9FBEA52588F5909F1A236033E60 /* Pods-ORCoreData_Example.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ORCoreData_Example/Pods-ORCoreData_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ORCoreData_Example/Pods-ORCoreData_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
 			};
-			name = Debug;
+			name = Release;
 		};
-		C93CB9D4FC906F5FA130E73EEE09A3C2 /* Release */ = {
+		EC9E12073E1252D373587260F8202FC9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20859CD89ADB2EACB27D004770149BCA /* ORCoreData.xcconfig */;
+			baseConfigurationReference = FD89BFDD5A68810CC5C2DF0530F58259 /* ORCoreData.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1164,7 +1174,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/ORCoreData/ORCoreData-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ORCoreData/ORCoreData-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/ORCoreData/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1188,8 +1198,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A3EB25F4025C917380964E3F08A56321 /* Debug */,
-				1547DA524EBFAD80BBE59F8A49BE63F3 /* Release */,
+				6C6EACA84DA9A4D8A1E4E2501D3848D0 /* Debug */,
+				D9B851E8D67D359282551F91AF242887 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1197,8 +1207,8 @@
 		5E210EE5DDF205164595A1BD30E2D9FF /* Build configuration list for PBXNativeTarget "Pods-ORCoreData_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3111E9587EA81B3D970E80AFB9BE68B6 /* Debug */,
-				B09B65947AAF25899A89AD1A180563FD /* Release */,
+				973F022F4745D49BBD9B3A98FCDCD978 /* Debug */,
+				7075837A68CF2C4664668EB42B27CA9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1206,8 +1216,8 @@
 		E82012B3067840081DB64BA6575F3FAC /* Build configuration list for PBXNativeTarget "MagicalRecord" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B57ABF9BE2B4C64E62F37902B334B4CD /* Debug */,
-				A06785F6EE55B0F7076DAB94A907C13C /* Release */,
+				C8B081A5A8D5952A0235971806EE2286 /* Debug */,
+				4C7AB3F4DEAF6370DF395F802894EE8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1215,8 +1225,8 @@
 		F2169DB0986A99897FD6891593F1E4B2 /* Build configuration list for PBXNativeTarget "ORCoreData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				59B5DFCD0CA588D88E4C3F63F4854A6F /* Debug */,
-				C93CB9D4FC906F5FA130E73EEE09A3C2 /* Release */,
+				6F8DF43245A912492420174F4FC7067B /* Debug */,
+				EC9E12073E1252D373587260F8202FC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1224,8 +1234,8 @@
 		F83E3200F34415DAF9BD4E811BF8E7BF /* Build configuration list for PBXNativeTarget "Pods-ORCoreData_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BB9FD065CBC75EBE0472A52048D60F34 /* Debug */,
-				0C7F849C4C4AE30744FE5C68806C8B4E /* Release */,
+				02A07E9D92C4D9B018F50CCC728E4E21 /* Debug */,
+				9574F001E890987C0B10C963FE3B97A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
