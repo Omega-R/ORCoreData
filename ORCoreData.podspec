@@ -18,11 +18,11 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = "ORCoreDataSaver, ORCoreDataEntityFinderAndCreator & ORCoreDataRemover"
 
-  s.homepage         = "https://git.omega-r.club/ios/ORCoreData"
+  s.homepage         = "https://github.com/Omega-R/ORCoreData"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Maxim Soloviev" => "maxim@omega-r.com" }
-  s.source           = { :git => "https://git.omega-r.club/ios/ORCoreData.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/Omega-R/ORCoreData", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '8.0'
