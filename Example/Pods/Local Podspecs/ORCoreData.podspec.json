@@ -1,26 +1,22 @@
 {
   "name": "ORCoreData",
-  "version": "5.0.0",
-  "summary": "ORCoreData - components for work with CoreData",
-  "description": "ORCoreDataSaver, ORCoreDataEntityFinderAndCreator & ORCoreDataRemover",
-  "homepage": "https://bitbucket.org/omegarinc/orcoredata",
-  "license": "MIT",
+  "version": "0.1.0",
+  "summary": "A short description of ORCoreData.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Egor Lindberg/ORCoreData",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
   "authors": {
-    "Maxim Soloviev": "maxim@omega-r.com"
+    "Egor Lindberg": "egor-lindberg@omega-r.com"
   },
   "source": {
-    "git": "https://bitbucket.org/omegarinc/orcoredata.git",
-    "tag": "5.0.0"
+    "git": "https://github.com/Egor Lindberg/ORCoreData.git",
+    "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "requires_arc": true,
-  "source_files": "Pod/Classes/**/*",
-  "frameworks": "Foundation",
-  "dependencies": {
-    "MagicalRecord": [
-      "~> 2.3"
-    ]
-  }
+  "source_files": "ORCoreData/Classes/**/*"
 }

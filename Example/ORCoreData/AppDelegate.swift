@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  ORCoreData
 //
-//  Created by Maxim Soloviev on 04/08/2016.
-//  Copyright (c) 2016 Maxim Soloviev. All rights reserved.
+//  Created by Egor Lindberg on 12/29/2020.
+//  Copyright (c) 2020 Egor Lindberg. All rights reserved.
 //
 
 import UIKit

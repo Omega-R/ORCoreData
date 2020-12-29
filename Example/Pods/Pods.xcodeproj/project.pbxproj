@@ -7,695 +7,525 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		049B0F382F6FEB840CD8FC12903E4F6C /* NSManagedObjectContext+MagicalThreading.h in Headers */ = {isa = PBXBuildFile; fileRef = C0073DAA577DED8C9F7C43F64F666EB9 /* NSManagedObjectContext+MagicalThreading.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0EF733D9FED8325EC6FA4B30CCC9E6B4 /* Pods-ORCoreData_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C340223D696808D75C2BECE734CC7184 /* Pods-ORCoreData_Example-dummy.m */; };
-		0F3B4801DD985E9CBFDF451E80E5207D /* ORCoreDataRemover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEC9EC9B169AB611D80D53EDE0EDCF9 /* ORCoreDataRemover.swift */; };
-		0FFDDABAA2DDA4F0BCFBF5C972026FEE /* NSEntityDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = D84C1841AB8D2C1B38A75ECCCAE6584A /* NSEntityDescription+MagicalDataImport.m */; };
-		16C3ED89DE5BE5C73262E542E53A736F /* MagicalRecord+Setup.m in Sources */ = {isa = PBXBuildFile; fileRef = D57A24FD6B89D8E8399D4AA79367CA70 /* MagicalRecord+Setup.m */; };
-		183247DEA1FCBD441B73B4F998F6D972 /* MagicalRecordDeprecationMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = EEDBE7D25919731F81FAC5276268C077 /* MagicalRecordDeprecationMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C72E0FA77C4189457401D8F81B91EA6 /* MagicalRecord+ErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = E7258370531A062D8C169E7289759F68 /* MagicalRecord+ErrorHandling.m */; };
-		1F89CD01C16E0C7BBABF0A32396B9844 /* NSManagedObject+MagicalAggregation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BD74193B05BAC88EFF5DB5C68407750 /* NSManagedObject+MagicalAggregation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		251612AC3BBE137903F1ED8C7A2637EC /* NSRelationshipDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1C89C7FB8573F97E04EE22C68FF63A /* NSRelationshipDescription+MagicalDataImport.m */; };
-		260C48828E8B7CD43694D9E80CE10F56 /* MagicalRecord+Options.m in Sources */ = {isa = PBXBuildFile; fileRef = AE803ED0A573697BA0A32EC3DCB82FD6 /* MagicalRecord+Options.m */; };
-		29B3A8EE3C8262F7D717D8ADEE8DB44E /* NSManagedObjectContext+MagicalSaves.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D86C8E3FC84D95384F4BD232963A8ED /* NSManagedObjectContext+MagicalSaves.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		29E2065A0D8009FFAFA6DE99906A5208 /* MagicalRecord+Setup.h in Headers */ = {isa = PBXBuildFile; fileRef = 62A195F7EB2121060BF98FFE11678A06 /* MagicalRecord+Setup.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CE317CDEC81A0B8E3543853B95182B6 /* ORCoreDataSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6B5D58A9535A790537FE6736924883 /* ORCoreDataSaver.swift */; };
-		2DA1B9210186EB1CE722847642E3355F /* NSPersistentStoreCoordinator+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 33279C09A07C0A1285C2255323E88486 /* NSPersistentStoreCoordinator+MagicalRecord.m */; };
-		2DCFD5D317D3DDA76E372AB516B4F4BF /* ORCoreData-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF20DF6B0CE0AE0BA64A4132DEDFDB13 /* ORCoreData-dummy.m */; };
-		32FD26CB82B4FC3ABCEA9856C6DEB31A /* NSNumber+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = C02FBE7AA3C9AE6BEED86BEC8757AD40 /* NSNumber+MagicalDataImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3684B08341D024C816A0098A6FE9A227 /* MagicalRecord-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1413D515AB2851F0712568549261C1 /* MagicalRecord-dummy.m */; };
-		39FEFAFFD9FAC76A272D7407278812F3 /* NSManagedObject+MagicalRequests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C3C31EA0B7CA17A385DD5DC444C108 /* NSManagedObject+MagicalRequests.m */; };
-		3BB5C52F3A394E5B7E77F39225FFB483 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09E9011EE92AC42635FEAF47C5BBDAF /* Foundation.framework */; };
-		3DDA3337ED274673CD97AFBD681FCFED /* NSManagedObject+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = B166E9A7CD31F32A7DFA8CA3B246FD46 /* NSManagedObject+MagicalRecord.m */; };
-		3E569ED568AD55687CC5AB9B0C0D4058 /* NSNumber+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF872DAE3CFEF13120AA26B1AF82E72 /* NSNumber+MagicalDataImport.m */; };
-		474E3ADB716B9FB8875D9902A53874FB /* MagicalRecordInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 695DAA5A5774BB0E117A6CBDC5E70311 /* MagicalRecordInternal.m */; };
-		4965A3BA359101E378207466D47CB7F3 /* NSManagedObjectContext+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 30A43FDA1679857682781F6C89A6D392 /* NSManagedObjectContext+MagicalRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A822877D28FF2761C1B5437C83E896A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09E9011EE92AC42635FEAF47C5BBDAF /* Foundation.framework */; };
-		5554C50A8F4EF7704E954CF54DB81D04 /* ORCoreDataEntityFinderAndCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D6E7096363A1E2F5C15E5560B0F0B2 /* ORCoreDataEntityFinderAndCreator.swift */; };
-		571271867BD74FB28AD618C61C06BD1E /* NSManagedObject+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CA5FB04744352364FFEF7AEDC4E9D8 /* NSManagedObject+MagicalDataImport.m */; };
-		5D7243AD2B46C999B3D0053BF5FB2A57 /* NSManagedObject+MagicalFinders.m in Sources */ = {isa = PBXBuildFile; fileRef = C331CA822140505254A9A32F31944744 /* NSManagedObject+MagicalFinders.m */; };
-		6009057BD8880E5B5371F0C74998E528 /* MagicalRecord+ErrorHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = 4117B36A2E13991EC2A620645056AF5C /* MagicalRecord+ErrorHandling.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		613672A770379455531B92173382E982 /* NSString+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 164C75E8723786FC10EBFE8F2CD1E5EB /* NSString+MagicalDataImport.m */; };
-		65C32B96B43270DAB4FFE797D8D52AB6 /* NSManagedObjectContext+MagicalObserving.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CDA852C63C883F7BB8E4A194A6409A /* NSManagedObjectContext+MagicalObserving.m */; };
-		6975B1C96EB0B561FEFB4B6B6C17BCA7 /* NSObject+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D7295EF96D4F287318CE30B111E63DC /* NSObject+MagicalDataImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		708930F01A68FD33C141260B4133A296 /* MagicalRecord+Actions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0248F4AABA45DCA3666B1EE776FAF13B /* MagicalRecord+Actions.m */; };
-		718F56AD263AD8CE2E07253D85387488 /* MagicalRecord+Actions.h in Headers */ = {isa = PBXBuildFile; fileRef = 342CB340E4AA5ABE64B891617BB3648D /* MagicalRecord+Actions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B935B5BEE6F0DA357D4C7744EDE2095 /* NSManagedObjectContext+MagicalChainSave.h in Headers */ = {isa = PBXBuildFile; fileRef = 840211C51227A62DFA588A9DA0611067 /* NSManagedObjectContext+MagicalChainSave.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7EE0BCB9BEB65F7135321AFB98B4CEA0 /* MagicalRecord+iCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = 9516630C823B76EBFC4FA92AA4D0E9C1 /* MagicalRecord+iCloud.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		812A1733C9D53A1FED01D21505BAE42A /* MagicalRecord+ShorthandMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = D1043D8DBA3540F5EA0DDFD02921515C /* MagicalRecord+ShorthandMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83F717E7EAB80FE35668F887C02DFA68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09E9011EE92AC42635FEAF47C5BBDAF /* Foundation.framework */; };
-		84F3EF3AC88D844AD7B4DA3F82367446 /* FindEntityTraitProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875F1067E9522D522A4BA1904D9C7392 /* FindEntityTraitProtocol.swift */; };
-		86306FCA54F5004F0CB8478F2344CC60 /* NSAttributeDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 750BFB0D4E2D0FE9E63D656B3BC0451D /* NSAttributeDescription+MagicalDataImport.m */; };
-		8767BC32944118104794138295CD1796 /* MagicalRecordLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D5FA4F5575558FCF9F252A79997B2F /* MagicalRecordLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C6DC9DC9079D10F9C5F93E44908BF58 /* MagicalRecordInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FCE0FD0F0498795BBBFC3D496D8C886 /* MagicalRecordInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8EC7032076CEA8A7D4F0C66636E92264 /* NSAttributeDescription+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D18E668B1F96A74BDAE78BE618C2863 /* NSAttributeDescription+MagicalDataImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F6D8A6ECD401E473E6A7C7FAD9B57BA /* MagicalRecord-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 338196153BEBA2F4A015B7179A75CFE2 /* MagicalRecord-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9232F60076146483DA3E56B279E848C6 /* NSEntityDescription+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FDB98B5ABCE33167C214B7D81347C80 /* NSEntityDescription+MagicalDataImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9282136A17ED8CEA83163B53888F3B02 /* NSManagedObject+MagicalAggregation.m in Sources */ = {isa = PBXBuildFile; fileRef = B86AD2F268798FBEE05D24FFFA16D964 /* NSManagedObject+MagicalAggregation.m */; };
-		966ADEFEB622276D73553F8174DCCDCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09E9011EE92AC42635FEAF47C5BBDAF /* Foundation.framework */; };
-		98F45FB1C6376DBECDDACD3F78F20010 /* NSManagedObjectContext+MagicalObserving.h in Headers */ = {isa = PBXBuildFile; fileRef = A1CF2DECA730E6A8BEF16B8B7B4A5779 /* NSManagedObjectContext+MagicalObserving.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AA588E1E0C28DD95C587B16B0144FAE /* ORCoreData-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AB910B87AC60B9BA19A3B1290AE20E /* ORCoreData-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A29428CBB91B2297CAEF8332FE49E421 /* NSManagedObjectModel+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A54E6948F07243BD6BC5AC75E68236 /* NSManagedObjectModel+MagicalRecord.m */; };
-		A6AE2A37196601CAF4516E6BAC2D48F7 /* NSManagedObjectContext+MagicalThreading.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA0FD1177C4F8C1CCAE372204C84298 /* NSManagedObjectContext+MagicalThreading.m */; };
-		ACCC9D8AB8B769DB021819A45C6EF7AF /* NSObject+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB38AF9583B614E511F71E65B7CF1B4 /* NSObject+MagicalDataImport.m */; };
-		AD31DE596F82184C3FE4272B02D6CC58 /* Pods-ORCoreData_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 319397230D37A32D9534C044A8B7436E /* Pods-ORCoreData_Tests-dummy.m */; };
-		B13BA04A507D42EAA925EE4E36B86120 /* MagicalRecord+Options.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B726141B0441B9E3C2ABC254A974553 /* MagicalRecord+Options.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7A6C2BAFC470D22F32B8D2DF8679436 /* NSPersistentStoreCoordinator+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 07FF1192499A50F050180F5CF91ADE98 /* NSPersistentStoreCoordinator+MagicalRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BDA7759FF33328ED8202E2E8A108BAC2 /* NSManagedObjectModel+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 670B6C07F289B1039F5CF3D986C4BE6F /* NSManagedObjectModel+MagicalRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BDD4C9F3DCEEE5DC2BB8E1454D7CC1C1 /* NSManagedObjectContext+MagicalSaves.m in Sources */ = {isa = PBXBuildFile; fileRef = A0581FB09D1240573829E61E5C65F5C6 /* NSManagedObjectContext+MagicalSaves.m */; };
-		C81CC170642636A5B0A5BFCDC638971B /* MagicalRecord+iCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E759A81A7F97FCA43F8D8447D29CB7 /* MagicalRecord+iCloud.m */; };
-		CDDF53E9D7941262BA964AEAFAF8371B /* MagicalRecordXcode7CompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 00F12568425DD65219C53E112E5DDB27 /* MagicalRecordXcode7CompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE976F4639C86FB23CB5E2E2B0131458 /* MagicalImportFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1B66D4931E5C5C084448FAE15B80F3 /* MagicalImportFunctions.m */; };
-		D7CB8563B7D97140ED5D8CAD927CCFCD /* NSManagedObject+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = B099EBAEC728B4FF6D5D92E7C8DA016D /* NSManagedObject+MagicalDataImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDDA2769024AE9505E9A9076EAB0D278 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237C308B54D0277E4D3087F7F83F4436 /* CoreData.framework */; };
-		E22F986488FAC1A7AF4256FEE04B1174 /* Pods-ORCoreData_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D6CBBC8FCFF62BDD71E15E0AF97AB39 /* Pods-ORCoreData_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E3DE6E34BE24AF0F53ADF8035B90231B /* MagicalRecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1712BE38DA8CFF82DB67665FC9263E26 /* MagicalRecord.framework */; };
-		E50F5C19C04AA061BB2BDF40FF10DAD0 /* Pods-ORCoreData_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8DEAB42E1AA07817269174996EFA4CC /* Pods-ORCoreData_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E64A069E0DEBDF380479164F26681E2F /* MagicalImportFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 80E230C6A7E3AF32A7515E9034F71808 /* MagicalImportFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E723116B89DB669BBCA9001D420D8C44 /* NSManagedObjectContext+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = FC93D60842F3FB76BEDB3BA1E1F94A98 /* NSManagedObjectContext+MagicalRecord.m */; };
-		E933198FA27D72DC73B0EAB6520E0CB3 /* NSPersistentStore+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = DADA6FC816487FA0C862A278AE23ADE1 /* NSPersistentStore+MagicalRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC84CC87C178F24D6488560D5B54A88B /* NSManagedObject+MagicalFinders.h in Headers */ = {isa = PBXBuildFile; fileRef = 1705AB266201E1E4BC3C3B71BB8F06D1 /* NSManagedObject+MagicalFinders.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F10229BBC43F6EC57924290A18B7EA15 /* NSString+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 3546AC1DD097385C2943750BEBD72873 /* NSString+MagicalDataImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1A10C256934D2081EDE263991DFEC4D /* NSManagedObject+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 10D0F4DC525E0AFCAA0776B56C938E5D /* NSManagedObject+MagicalRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6D1E7C8E211077BB8CD122DB1247C6E /* MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AE5ADD77C2724B1AF070B02CB34D2BB /* MagicalRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9D59ECDDF67F514C74392E2705F717B /* NSManagedObject+MagicalRequests.h in Headers */ = {isa = PBXBuildFile; fileRef = 808F2CD97A56B3119B634243053E2D63 /* NSManagedObject+MagicalRequests.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FAF1A4F22D6634D965B5764137DD41F7 /* MagicalRecord+ShorthandMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 6344E228E2E43970176083E36F234E4F /* MagicalRecord+ShorthandMethods.m */; };
-		FC79E56FDB6ADB79D71C1CC74CAC06DF /* NSRelationshipDescription+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 888A5493EA756BF80E08F5687BF3A35A /* NSRelationshipDescription+MagicalDataImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD217EBE1046E1A38591416ABC819C0A /* NSPersistentStore+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = B20AAD5108C94EFEDD7E5FF37B63612E /* NSPersistentStore+MagicalRecord.m */; };
-		FE24D033DFF4DCB1CD24F6F5F1FC4299 /* NSManagedObjectContext+MagicalChainSave.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFC6184E62A4E947ECB97805A976EDC /* NSManagedObjectContext+MagicalChainSave.m */; };
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05EB8F03AD5FE63C93CB3E407509E323 /* Pods-ORCoreData_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8FB0BC1639E8DDDE41EC64DEE7816F3 /* Pods-ORCoreData_Tests-dummy.m */; };
+		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */; };
+		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */; };
+		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
+		15770A1CA88A7390EA2AF4A3CBE99F3B /* ORCoreData-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D627D2348C6A63F0D050188F07993A2 /* ORCoreData-dummy.m */; };
+		1D33B8C33B6277EAC6DD31CB0E32E19D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */; };
+		321678755979983166F85A1547A26E7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		3DB51D76FB4528F4A773ECBBA1961521 /* Pods-ORCoreData_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2164C8AD84E9E43E37C8D7ECBB15162A /* Pods-ORCoreData_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FD88E457C4F76A78F50276A8D4CB309 /* Pods-ORCoreData_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41D3E034EE95FDAA5CFEDF2316CD8106 /* Pods-ORCoreData_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
+		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */; };
+		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */; };
+		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */; };
+		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */; };
+		AC949D41B0ACAABFB38A9B9347CA8D89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BE24484EDF7B96C7C0EC07F9852A4989 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC936D0B844B69B10C349384D87C5E /* ReplaceMe.swift */; };
+		C3EC23FB0CF696C5D1CC4B89CBBDC746 /* Pods-ORCoreData_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E27EAED6D70682FD9B7B96B6EAC60BDE /* Pods-ORCoreData_Example-dummy.m */; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DEB777CF571BB937E93748F3FEB1CBB1 /* ORCoreData-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E41A877833BD0402E97BD177AB236286 /* ORCoreData-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
+		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1C5694E564F788F6917C3CBCF36D6BDA /* PBXContainerItemProxy */ = {
+		3A3E5AC0559367D4A9A3F63C12B51E25 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F4AE61E792F939B301B09767BD13028B;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		7D55F7747ECBA601EE80E5378F8472A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D4B798330378020A38B31359D95DC16;
 			remoteInfo = ORCoreData;
 		};
-		6EA4520149DF4A5CDB7C05A0DBAF15ED /* PBXContainerItemProxy */ = {
+		DED40BFC1581F2D44F150897D5D610CF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F4AE61E792F939B301B09767BD13028B;
-			remoteInfo = ORCoreData;
-		};
-		BEA4880C329A858BA65381C33E23C153 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AA3E24EFC398594C300C06767C4AE5D4;
-			remoteInfo = MagicalRecord;
-		};
-		C312F526E69DD6E2A2D41639E6ED12F6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AA3E24EFC398594C300C06767C4AE5D4;
-			remoteInfo = MagicalRecord;
-		};
-		FB5B00F16D5BFA6E2DEE989637576FD8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AA3E24EFC398594C300C06767C4AE5D4;
-			remoteInfo = MagicalRecord;
+			remoteGlobalIDString = 853F5A59B0A49339C0263BBACD007D63;
+			remoteInfo = "Pods-ORCoreData_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00557A44FC913324B81E9624C96F57D8 /* Pods-ORCoreData_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ORCoreData_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		00F12568425DD65219C53E112E5DDB27 /* MagicalRecordXcode7CompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalRecordXcode7CompatibilityMacros.h; path = MagicalRecord/Core/MagicalRecordXcode7CompatibilityMacros.h; sourceTree = "<group>"; };
-		0248F4AABA45DCA3666B1EE776FAF13B /* MagicalRecord+Actions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+Actions.m"; path = "MagicalRecord/Core/MagicalRecord+Actions.m"; sourceTree = "<group>"; };
-		04AB910B87AC60B9BA19A3B1290AE20E /* ORCoreData-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ORCoreData-umbrella.h"; sourceTree = "<group>"; };
-		07FF1192499A50F050180F5CF91ADE98 /* NSPersistentStoreCoordinator+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSPersistentStoreCoordinator+MagicalRecord.h"; path = "MagicalRecord/Categories/NSPersistentStoreCoordinator+MagicalRecord.h"; sourceTree = "<group>"; };
-		0FB38AF9583B614E511F71E65B7CF1B4 /* NSObject+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSObject+MagicalDataImport.m"; sourceTree = "<group>"; };
-		0FDB98B5ABCE33167C214B7D81347C80 /* NSEntityDescription+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSEntityDescription+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSEntityDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
-		10D0F4DC525E0AFCAA0776B56C938E5D /* NSManagedObject+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalRecord.h"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRecord.h"; sourceTree = "<group>"; };
-		164C75E8723786FC10EBFE8F2CD1E5EB /* NSString+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSString+MagicalDataImport.m"; sourceTree = "<group>"; };
-		1705AB266201E1E4BC3C3B71BB8F06D1 /* NSManagedObject+MagicalFinders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalFinders.h"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalFinders.h"; sourceTree = "<group>"; };
-		1712BE38DA8CFF82DB67665FC9263E26 /* MagicalRecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MagicalRecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		190454EBC06BCA5967B8DF262A2D5D2E /* MagicalRecord.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MagicalRecord.modulemap; sourceTree = "<group>"; };
-		196E89D42718B334416BCD9A1FD2CABD /* ORCoreData.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ORCoreData.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1D3FC98F169C8A7B95EF447BCF4A9E4D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		1D7295EF96D4F287318CE30B111E63DC /* NSObject+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSObject+MagicalDataImport.h"; sourceTree = "<group>"; };
-		213E982279F46D6246A17F776FCF511B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22E1170127C4C774AD8E8709A1C4F93D /* Pods-ORCoreData_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ORCoreData_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		237C308B54D0277E4D3087F7F83F4436 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
-		2403AF08E2CE9B0AC4AB30707AC17744 /* Pods-ORCoreData_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ORCoreData_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2AF872DAE3CFEF13120AA26B1AF82E72 /* NSNumber+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSNumber+MagicalDataImport.m"; sourceTree = "<group>"; };
-		2C2CF063A5BB9BB366510A25974179CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		30A43FDA1679857682781F6C89A6D392 /* NSManagedObjectContext+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalRecord.h"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalRecord.h"; sourceTree = "<group>"; };
-		319397230D37A32D9534C044A8B7436E /* Pods-ORCoreData_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ORCoreData_Tests-dummy.m"; sourceTree = "<group>"; };
-		32EFAFCFAFBD472CC57CDA5D9BDE6985 /* Pods_ORCoreData_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ORCoreData_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		33279C09A07C0A1285C2255323E88486 /* NSPersistentStoreCoordinator+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSPersistentStoreCoordinator+MagicalRecord.m"; path = "MagicalRecord/Categories/NSPersistentStoreCoordinator+MagicalRecord.m"; sourceTree = "<group>"; };
-		338196153BEBA2F4A015B7179A75CFE2 /* MagicalRecord-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord-umbrella.h"; sourceTree = "<group>"; };
-		342CB340E4AA5ABE64B891617BB3648D /* MagicalRecord+Actions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+Actions.h"; path = "MagicalRecord/Core/MagicalRecord+Actions.h"; sourceTree = "<group>"; };
-		34D8C818BECED4A05407A284572F72A2 /* ORCoreData.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ORCoreData.modulemap; sourceTree = "<group>"; };
-		3546AC1DD097385C2943750BEBD72873 /* NSString+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSString+MagicalDataImport.h"; sourceTree = "<group>"; };
-		37471956FB7F61A28AD99BCB33914975 /* Pods-ORCoreData_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ORCoreData_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3B726141B0441B9E3C2ABC254A974553 /* MagicalRecord+Options.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+Options.h"; path = "MagicalRecord/Core/MagicalRecord+Options.h"; sourceTree = "<group>"; };
-		3D6CBBC8FCFF62BDD71E15E0AF97AB39 /* Pods-ORCoreData_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ORCoreData_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3DEC9EC9B169AB611D80D53EDE0EDCF9 /* ORCoreDataRemover.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ORCoreDataRemover.swift; path = Pod/Classes/ORCoreDataRemover.swift; sourceTree = "<group>"; };
-		4117B36A2E13991EC2A620645056AF5C /* MagicalRecord+ErrorHandling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+ErrorHandling.h"; path = "MagicalRecord/Core/MagicalRecord+ErrorHandling.h"; sourceTree = "<group>"; };
-		46D04A23E6AA0667F4AA2B74CA0E57D6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4AE5ADD77C2724B1AF070B02CB34D2BB /* MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalRecord.h; path = MagicalRecord/MagicalRecord.h; sourceTree = "<group>"; };
-		4AFB727664AEB9A3F1DB75AE557F0CCA /* Pods-ORCoreData_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ORCoreData_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4BBC3B760F58964F9EBD27713BCA9B53 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		515718204A04770421671D05A44175F9 /* Pods-ORCoreData_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ORCoreData_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5BD74193B05BAC88EFF5DB5C68407750 /* NSManagedObject+MagicalAggregation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalAggregation.h"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalAggregation.h"; sourceTree = "<group>"; };
-		609C85AB615B766930CC61EE84773020 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		61455B76A27E5F0E94833816829A27E6 /* Pods-ORCoreData_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ORCoreData_Example-resources.sh"; sourceTree = "<group>"; };
-		62A195F7EB2121060BF98FFE11678A06 /* MagicalRecord+Setup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+Setup.h"; path = "MagicalRecord/Core/MagicalRecord+Setup.h"; sourceTree = "<group>"; };
-		6344E228E2E43970176083E36F234E4F /* MagicalRecord+ShorthandMethods.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+ShorthandMethods.m"; path = "MagicalRecord/Core/MagicalRecord+ShorthandMethods.m"; sourceTree = "<group>"; };
-		670B6C07F289B1039F5CF3D986C4BE6F /* NSManagedObjectModel+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectModel+MagicalRecord.h"; path = "MagicalRecord/Categories/NSManagedObjectModel+MagicalRecord.h"; sourceTree = "<group>"; };
-		695DAA5A5774BB0E117A6CBDC5E70311 /* MagicalRecordInternal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MagicalRecordInternal.m; path = MagicalRecord/Core/MagicalRecordInternal.m; sourceTree = "<group>"; };
-		6A1C89C7FB8573F97E04EE22C68FF63A /* NSRelationshipDescription+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSRelationshipDescription+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSRelationshipDescription+MagicalDataImport.m"; sourceTree = "<group>"; };
-		6A654AB5C9A1EE5E4B5479FA5BAF87C2 /* Pods-ORCoreData_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ORCoreData_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6C1413D515AB2851F0712568549261C1 /* MagicalRecord-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MagicalRecord-dummy.m"; sourceTree = "<group>"; };
-		750BFB0D4E2D0FE9E63D656B3BC0451D /* NSAttributeDescription+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributeDescription+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSAttributeDescription+MagicalDataImport.m"; sourceTree = "<group>"; };
-		7D86C8E3FC84D95384F4BD232963A8ED /* NSManagedObjectContext+MagicalSaves.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalSaves.h"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalSaves.h"; sourceTree = "<group>"; };
-		7FCE0FD0F0498795BBBFC3D496D8C886 /* MagicalRecordInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalRecordInternal.h; path = MagicalRecord/Core/MagicalRecordInternal.h; sourceTree = "<group>"; };
-		808F2CD97A56B3119B634243053E2D63 /* NSManagedObject+MagicalRequests.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalRequests.h"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRequests.h"; sourceTree = "<group>"; };
-		80CA5FB04744352364FFEF7AEDC4E9D8 /* NSManagedObject+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalDataImport.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalDataImport.m"; sourceTree = "<group>"; };
-		80E230C6A7E3AF32A7515E9034F71808 /* MagicalImportFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalImportFunctions.h; path = MagicalRecord/Categories/DataImport/MagicalImportFunctions.h; sourceTree = "<group>"; };
-		840211C51227A62DFA588A9DA0611067 /* NSManagedObjectContext+MagicalChainSave.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalChainSave.h"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalChainSave.h"; sourceTree = "<group>"; };
-		875F1067E9522D522A4BA1904D9C7392 /* FindEntityTraitProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FindEntityTraitProtocol.swift; path = Pod/Classes/FindEntityTraitProtocol.swift; sourceTree = "<group>"; };
-		888A5493EA756BF80E08F5687BF3A35A /* NSRelationshipDescription+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSRelationshipDescription+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSRelationshipDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
-		8D18E668B1F96A74BDAE78BE618C2863 /* NSAttributeDescription+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributeDescription+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSAttributeDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
-		902D218032D400C3C3E043326F9E6CF3 /* Pods-ORCoreData_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ORCoreData_Tests.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		949232B651912F31CDB75CB2FF6DE4C6 /* Pods-ORCoreData_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ORCoreData_Example.modulemap"; sourceTree = "<group>"; };
-		9516630C823B76EBFC4FA92AA4D0E9C1 /* MagicalRecord+iCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+iCloud.h"; path = "MagicalRecord/Core/MagicalRecord+iCloud.h"; sourceTree = "<group>"; };
-		95C3C31EA0B7CA17A385DD5DC444C108 /* NSManagedObject+MagicalRequests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalRequests.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRequests.m"; sourceTree = "<group>"; };
-		963C429AA50C66CF0C5D92E6736D0450 /* MagicalRecord-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord-prefix.pch"; sourceTree = "<group>"; };
-		99D6E7096363A1E2F5C15E5560B0F0B2 /* ORCoreDataEntityFinderAndCreator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ORCoreDataEntityFinderAndCreator.swift; path = Pod/Classes/ORCoreDataEntityFinderAndCreator.swift; sourceTree = "<group>"; };
-		9C1B66D4931E5C5C084448FAE15B80F3 /* MagicalImportFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MagicalImportFunctions.m; path = MagicalRecord/Categories/DataImport/MagicalImportFunctions.m; sourceTree = "<group>"; };
-		A0581FB09D1240573829E61E5C65F5C6 /* NSManagedObjectContext+MagicalSaves.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalSaves.m"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalSaves.m"; sourceTree = "<group>"; };
-		A1CF2DECA730E6A8BEF16B8B7B4A5779 /* NSManagedObjectContext+MagicalObserving.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalObserving.h"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalObserving.h"; sourceTree = "<group>"; };
-		A33B0FCD526D7D39BAEACDE30B24A251 /* ORCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ORCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A43DF2276B285CFB9F2A35753EDDCB54 /* Pods-ORCoreData_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ORCoreData_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		A73982AA85AFAF00D44113BCA64164CF /* Pods-ORCoreData_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ORCoreData_Example-frameworks.sh"; sourceTree = "<group>"; };
-		A8A54E6948F07243BD6BC5AC75E68236 /* NSManagedObjectModel+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectModel+MagicalRecord.m"; path = "MagicalRecord/Categories/NSManagedObjectModel+MagicalRecord.m"; sourceTree = "<group>"; };
-		AE803ED0A573697BA0A32EC3DCB82FD6 /* MagicalRecord+Options.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+Options.m"; path = "MagicalRecord/Core/MagicalRecord+Options.m"; sourceTree = "<group>"; };
-		B099EBAEC728B4FF6D5D92E7C8DA016D /* NSManagedObject+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalDataImport.h"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalDataImport.h"; sourceTree = "<group>"; };
-		B166E9A7CD31F32A7DFA8CA3B246FD46 /* NSManagedObject+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalRecord.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRecord.m"; sourceTree = "<group>"; };
-		B20AAD5108C94EFEDD7E5FF37B63612E /* NSPersistentStore+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSPersistentStore+MagicalRecord.m"; path = "MagicalRecord/Categories/NSPersistentStore+MagicalRecord.m"; sourceTree = "<group>"; };
-		B5AC008A5E7484688CD391D224122FE9 /* Pods-ORCoreData_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ORCoreData_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		B86AD2F268798FBEE05D24FFFA16D964 /* NSManagedObject+MagicalAggregation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalAggregation.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalAggregation.m"; sourceTree = "<group>"; };
-		B8DEAB42E1AA07817269174996EFA4CC /* Pods-ORCoreData_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ORCoreData_Example-umbrella.h"; sourceTree = "<group>"; };
-		BBA0FD1177C4F8C1CCAE372204C84298 /* NSManagedObjectContext+MagicalThreading.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalThreading.m"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalThreading.m"; sourceTree = "<group>"; };
-		C0073DAA577DED8C9F7C43F64F666EB9 /* NSManagedObjectContext+MagicalThreading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalThreading.h"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalThreading.h"; sourceTree = "<group>"; };
-		C02FBE7AA3C9AE6BEED86BEC8757AD40 /* NSNumber+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSNumber+MagicalDataImport.h"; sourceTree = "<group>"; };
-		C09E9011EE92AC42635FEAF47C5BBDAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		C331CA822140505254A9A32F31944744 /* NSManagedObject+MagicalFinders.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalFinders.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalFinders.m"; sourceTree = "<group>"; };
-		C340223D696808D75C2BECE734CC7184 /* Pods-ORCoreData_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ORCoreData_Example-dummy.m"; sourceTree = "<group>"; };
-		C98319DD6233B2AA0A77BFB659B2DADD /* MagicalRecord.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MagicalRecord.xcconfig; sourceTree = "<group>"; };
-		D1043D8DBA3540F5EA0DDFD02921515C /* MagicalRecord+ShorthandMethods.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+ShorthandMethods.h"; path = "MagicalRecord/Core/MagicalRecord+ShorthandMethods.h"; sourceTree = "<group>"; };
-		D4B2AC01ACD36DD2719FD183A8ED7210 /* Pods_ORCoreData_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ORCoreData_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D51984B9A1B5D805AE75D5C0FF66E22D /* MagicalRecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MagicalRecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D57A24FD6B89D8E8399D4AA79367CA70 /* MagicalRecord+Setup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+Setup.m"; path = "MagicalRecord/Core/MagicalRecord+Setup.m"; sourceTree = "<group>"; };
-		D7E76C6311370A30A7C491934A19CA7A /* ORCoreData-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ORCoreData-prefix.pch"; sourceTree = "<group>"; };
-		D84C1841AB8D2C1B38A75ECCCAE6584A /* NSEntityDescription+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSEntityDescription+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSEntityDescription+MagicalDataImport.m"; sourceTree = "<group>"; };
-		DADA6FC816487FA0C862A278AE23ADE1 /* NSPersistentStore+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSPersistentStore+MagicalRecord.h"; path = "MagicalRecord/Categories/NSPersistentStore+MagicalRecord.h"; sourceTree = "<group>"; };
-		DE7B1A1A6436F6689ADB383BB1889C90 /* Pods-ORCoreData_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ORCoreData_Tests-resources.sh"; sourceTree = "<group>"; };
-		DEFC6184E62A4E947ECB97805A976EDC /* NSManagedObjectContext+MagicalChainSave.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalChainSave.m"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalChainSave.m"; sourceTree = "<group>"; };
-		DF6B5D58A9535A790537FE6736924883 /* ORCoreDataSaver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ORCoreDataSaver.swift; path = Pod/Classes/ORCoreDataSaver.swift; sourceTree = "<group>"; };
-		E1CDA852C63C883F7BB8E4A194A6409A /* NSManagedObjectContext+MagicalObserving.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalObserving.m"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalObserving.m"; sourceTree = "<group>"; };
-		E3E759A81A7F97FCA43F8D8447D29CB7 /* MagicalRecord+iCloud.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+iCloud.m"; path = "MagicalRecord/Core/MagicalRecord+iCloud.m"; sourceTree = "<group>"; };
-		E7258370531A062D8C169E7289759F68 /* MagicalRecord+ErrorHandling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+ErrorHandling.m"; path = "MagicalRecord/Core/MagicalRecord+ErrorHandling.m"; sourceTree = "<group>"; };
-		EEDBE7D25919731F81FAC5276268C077 /* MagicalRecordDeprecationMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalRecordDeprecationMacros.h; path = MagicalRecord/Core/MagicalRecordDeprecationMacros.h; sourceTree = "<group>"; };
-		EF20DF6B0CE0AE0BA64A4132DEDFDB13 /* ORCoreData-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ORCoreData-dummy.m"; sourceTree = "<group>"; };
-		F3D5FA4F5575558FCF9F252A79997B2F /* MagicalRecordLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalRecordLogging.h; path = MagicalRecord/Core/MagicalRecordLogging.h; sourceTree = "<group>"; };
-		FC93D60842F3FB76BEDB3BA1E1F94A98 /* NSManagedObjectContext+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalRecord.m"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalRecord.m"; sourceTree = "<group>"; };
-		FD89BFDD5A68810CC5C2DF0530F58259 /* ORCoreData.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ORCoreData.xcconfig; sourceTree = "<group>"; };
+		0910FC8B917F61F5AC7E6E8B42042646 /* Pods-ORCoreData_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ORCoreData_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		136377A0033518D2B44DDD825A418EB0 /* Pods-ORCoreData_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ORCoreData_Tests-Info.plist"; sourceTree = "<group>"; };
+		13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		13F8E585930B2EE5F887D55E0256EF84 /* Pods_ORCoreData_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ORCoreData_Example.framework; path = "Pods-ORCoreData_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		2164C8AD84E9E43E37C8D7ECBB15162A /* Pods-ORCoreData_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ORCoreData_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3A17FA24E5656D4F13BA9A1FCB4BFA2B /* Pods-ORCoreData_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ORCoreData_Example-Info.plist"; sourceTree = "<group>"; };
+		3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		3F580D33027FECAC720D2B10E0E2A11A /* Pods-ORCoreData_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ORCoreData_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4120BAB13C47208B0A90306C109F9B39 /* Pods-ORCoreData_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ORCoreData_Example.modulemap"; sourceTree = "<group>"; };
+		418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		41D3E034EE95FDAA5CFEDF2316CD8106 /* Pods-ORCoreData_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ORCoreData_Example-umbrella.h"; sourceTree = "<group>"; };
+		470DAFDD2B6AA45CB48B9912DE90E5FB /* ORCoreData.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ORCoreData.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6D627D2348C6A63F0D050188F07993A2 /* ORCoreData-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ORCoreData-dummy.m"; sourceTree = "<group>"; };
+		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		760477037ACF86B1DA6F3EF7D49A326F /* Pods-ORCoreData_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ORCoreData_Tests.modulemap"; sourceTree = "<group>"; };
+		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		83A7719B3BECA9BF1A8B1EDB76EE0136 /* Pods-ORCoreData_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ORCoreData_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8CFC936D0B844B69B10C349384D87C5E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ORCoreData/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		94B6D5B183BF141F91789E4AE199E877 /* ORCoreData-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ORCoreData-Info.plist"; sourceTree = "<group>"; };
+		98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F2FD0820FE03B5701D7BA21796F5562 /* Pods-ORCoreData_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ORCoreData_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		A64F6E4ACEA98B18ADB9F33164FCDCC1 /* ORCoreData-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ORCoreData-prefix.pch"; sourceTree = "<group>"; };
+		A6C609A463FF37C9C76F9BA9BB299AB8 /* ORCoreData.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ORCoreData.modulemap; sourceTree = "<group>"; };
+		AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		ACB1D1F942E90F6BAF0B04F62BB9E74E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		BB8332F1AEFA97C8E91CC3F4AFD16E67 /* Pods-ORCoreData_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ORCoreData_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C0F0EBA4A792977F513E6DBCB15BE3D4 /* Pods-ORCoreData_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ORCoreData_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C3B25EAF0A2FE75F8BF33D0D28E280D3 /* Pods_ORCoreData_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ORCoreData_Tests.framework; path = "Pods-ORCoreData_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8494C1D394284FC2BD79CFBFB1617DF /* Pods-ORCoreData_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ORCoreData_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C8FB0BC1639E8DDDE41EC64DEE7816F3 /* Pods-ORCoreData_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ORCoreData_Tests-dummy.m"; sourceTree = "<group>"; };
+		CA0DA78B6C91AA6B2DFABC625163068C /* Pods-ORCoreData_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ORCoreData_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		D8D330EEE5C6391DD8C0B2D80D961429 /* Pods-ORCoreData_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ORCoreData_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DCEC00752A642FB3D5506C9458559738 /* Pods-ORCoreData_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ORCoreData_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		E1C8C0026A26E9594D0238F3547211AC /* ORCoreData.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ORCoreData.xcconfig; sourceTree = "<group>"; };
+		E27EAED6D70682FD9B7B96B6EAC60BDE /* Pods-ORCoreData_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ORCoreData_Example-dummy.m"; sourceTree = "<group>"; };
+		E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		E41A877833BD0402E97BD177AB236286 /* ORCoreData-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ORCoreData-umbrella.h"; sourceTree = "<group>"; };
+		E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		F269F95E594A8575B15934F229BF1FCE /* ORCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ORCoreData.framework; path = ORCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2833CDAD0D16F5914A4A89018F8E129 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1422505F04E14B036EDA82400A2C6D34 /* Frameworks */ = {
+		1184B6E5C5811059484EC9711E80B150 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BB5C52F3A394E5B7E77F39225FFB483 /* Foundation.framework in Frameworks */,
+				321678755979983166F85A1547A26E7D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1C0212BDA211AEDFCC303E6FC86D5549 /* Frameworks */ = {
+		5AB692615999D72158CC70FABB910EFA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				966ADEFEB622276D73553F8174DCCDCE /* Foundation.framework in Frameworks */,
+				1D33B8C33B6277EAC6DD31CB0E32E19D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20319CAB3F554276916067EB98761305 /* Frameworks */ = {
+		AEE0860F75B784001A60DC3DCAA651C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83F717E7EAB80FE35668F887C02DFA68 /* Foundation.framework in Frameworks */,
-				E3DE6E34BE24AF0F53ADF8035B90231B /* MagicalRecord.framework in Frameworks */,
+				AC949D41B0ACAABFB38A9B9347CA8D89 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2888517B404CAC4C8C79AF8400B74D24 /* Frameworks */ = {
+		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDDA2769024AE9505E9A9076EAB0D278 /* CoreData.framework in Frameworks */,
-				4A822877D28FF2761C1B5437C83E896A /* Foundation.framework in Frameworks */,
+				B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */,
+				14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */,
+				E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */,
+				6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		302E29F99B193BE9A05B1873F9CF75DE /* Pods-ORCoreData_Tests */ = {
+		083AA5C3B137B841B2603DB1C46992CC /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				213E982279F46D6246A17F776FCF511B /* Info.plist */,
-				902D218032D400C3C3E043326F9E6CF3 /* Pods-ORCoreData_Tests.modulemap */,
-				37471956FB7F61A28AD99BCB33914975 /* Pods-ORCoreData_Tests-acknowledgements.markdown */,
-				22E1170127C4C774AD8E8709A1C4F93D /* Pods-ORCoreData_Tests-acknowledgements.plist */,
-				319397230D37A32D9534C044A8B7436E /* Pods-ORCoreData_Tests-dummy.m */,
-				B5AC008A5E7484688CD391D224122FE9 /* Pods-ORCoreData_Tests-frameworks.sh */,
-				DE7B1A1A6436F6689ADB383BB1889C90 /* Pods-ORCoreData_Tests-resources.sh */,
-				3D6CBBC8FCFF62BDD71E15E0AF97AB39 /* Pods-ORCoreData_Tests-umbrella.h */,
-				515718204A04770421671D05A44175F9 /* Pods-ORCoreData_Tests.debug.xcconfig */,
-				00557A44FC913324B81E9624C96F57D8 /* Pods-ORCoreData_Tests.release.xcconfig */,
-			);
-			name = "Pods-ORCoreData_Tests";
-			path = "Target Support Files/Pods-ORCoreData_Tests";
-			sourceTree = "<group>";
-		};
-		3DC381B66208E692929DAF1C8CBEA6B4 /* MagicalRecord */ = {
-			isa = PBXGroup;
-			children = (
-				8E9CDD01AF78B71941FDBC271B49726C /* Core */,
-				C7382EB1791640A86C2EF8B0E767109C /* Support Files */,
-			);
-			path = MagicalRecord;
-			sourceTree = "<group>";
-		};
-		4D5E0E861088AA9B819EDC0D83875BDF /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3DC381B66208E692929DAF1C8CBEA6B4 /* MagicalRecord */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				A96D1134F39F25F1AEBF94E9711FF816 /* Development Pods */,
-				E33F5E44FBD6039EDAECC80A253F535C /* Frameworks */,
-				4D5E0E861088AA9B819EDC0D83875BDF /* Pods */,
-				86C9302031688E1CD2C6949AC2C679E0 /* Products */,
-				8A6E11C2BB085345A812AF537E867FC4 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		86C9302031688E1CD2C6949AC2C679E0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D51984B9A1B5D805AE75D5C0FF66E22D /* MagicalRecord.framework */,
-				A33B0FCD526D7D39BAEACDE30B24A251 /* ORCoreData.framework */,
-				D4B2AC01ACD36DD2719FD183A8ED7210 /* Pods_ORCoreData_Example.framework */,
-				32EFAFCFAFBD472CC57CDA5D9BDE6985 /* Pods_ORCoreData_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		8A6E11C2BB085345A812AF537E867FC4 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FD82D7439944876EA161D4B2BB9CFC88 /* Pods-ORCoreData_Example */,
-				302E29F99B193BE9A05B1873F9CF75DE /* Pods-ORCoreData_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		8E9CDD01AF78B71941FDBC271B49726C /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				80E230C6A7E3AF32A7515E9034F71808 /* MagicalImportFunctions.h */,
-				9C1B66D4931E5C5C084448FAE15B80F3 /* MagicalImportFunctions.m */,
-				4AE5ADD77C2724B1AF070B02CB34D2BB /* MagicalRecord.h */,
-				342CB340E4AA5ABE64B891617BB3648D /* MagicalRecord+Actions.h */,
-				0248F4AABA45DCA3666B1EE776FAF13B /* MagicalRecord+Actions.m */,
-				4117B36A2E13991EC2A620645056AF5C /* MagicalRecord+ErrorHandling.h */,
-				E7258370531A062D8C169E7289759F68 /* MagicalRecord+ErrorHandling.m */,
-				9516630C823B76EBFC4FA92AA4D0E9C1 /* MagicalRecord+iCloud.h */,
-				E3E759A81A7F97FCA43F8D8447D29CB7 /* MagicalRecord+iCloud.m */,
-				3B726141B0441B9E3C2ABC254A974553 /* MagicalRecord+Options.h */,
-				AE803ED0A573697BA0A32EC3DCB82FD6 /* MagicalRecord+Options.m */,
-				62A195F7EB2121060BF98FFE11678A06 /* MagicalRecord+Setup.h */,
-				D57A24FD6B89D8E8399D4AA79367CA70 /* MagicalRecord+Setup.m */,
-				D1043D8DBA3540F5EA0DDFD02921515C /* MagicalRecord+ShorthandMethods.h */,
-				6344E228E2E43970176083E36F234E4F /* MagicalRecord+ShorthandMethods.m */,
-				EEDBE7D25919731F81FAC5276268C077 /* MagicalRecordDeprecationMacros.h */,
-				7FCE0FD0F0498795BBBFC3D496D8C886 /* MagicalRecordInternal.h */,
-				695DAA5A5774BB0E117A6CBDC5E70311 /* MagicalRecordInternal.m */,
-				F3D5FA4F5575558FCF9F252A79997B2F /* MagicalRecordLogging.h */,
-				00F12568425DD65219C53E112E5DDB27 /* MagicalRecordXcode7CompatibilityMacros.h */,
-				8D18E668B1F96A74BDAE78BE618C2863 /* NSAttributeDescription+MagicalDataImport.h */,
-				750BFB0D4E2D0FE9E63D656B3BC0451D /* NSAttributeDescription+MagicalDataImport.m */,
-				0FDB98B5ABCE33167C214B7D81347C80 /* NSEntityDescription+MagicalDataImport.h */,
-				D84C1841AB8D2C1B38A75ECCCAE6584A /* NSEntityDescription+MagicalDataImport.m */,
-				5BD74193B05BAC88EFF5DB5C68407750 /* NSManagedObject+MagicalAggregation.h */,
-				B86AD2F268798FBEE05D24FFFA16D964 /* NSManagedObject+MagicalAggregation.m */,
-				B099EBAEC728B4FF6D5D92E7C8DA016D /* NSManagedObject+MagicalDataImport.h */,
-				80CA5FB04744352364FFEF7AEDC4E9D8 /* NSManagedObject+MagicalDataImport.m */,
-				1705AB266201E1E4BC3C3B71BB8F06D1 /* NSManagedObject+MagicalFinders.h */,
-				C331CA822140505254A9A32F31944744 /* NSManagedObject+MagicalFinders.m */,
-				10D0F4DC525E0AFCAA0776B56C938E5D /* NSManagedObject+MagicalRecord.h */,
-				B166E9A7CD31F32A7DFA8CA3B246FD46 /* NSManagedObject+MagicalRecord.m */,
-				808F2CD97A56B3119B634243053E2D63 /* NSManagedObject+MagicalRequests.h */,
-				95C3C31EA0B7CA17A385DD5DC444C108 /* NSManagedObject+MagicalRequests.m */,
-				840211C51227A62DFA588A9DA0611067 /* NSManagedObjectContext+MagicalChainSave.h */,
-				DEFC6184E62A4E947ECB97805A976EDC /* NSManagedObjectContext+MagicalChainSave.m */,
-				A1CF2DECA730E6A8BEF16B8B7B4A5779 /* NSManagedObjectContext+MagicalObserving.h */,
-				E1CDA852C63C883F7BB8E4A194A6409A /* NSManagedObjectContext+MagicalObserving.m */,
-				30A43FDA1679857682781F6C89A6D392 /* NSManagedObjectContext+MagicalRecord.h */,
-				FC93D60842F3FB76BEDB3BA1E1F94A98 /* NSManagedObjectContext+MagicalRecord.m */,
-				7D86C8E3FC84D95384F4BD232963A8ED /* NSManagedObjectContext+MagicalSaves.h */,
-				A0581FB09D1240573829E61E5C65F5C6 /* NSManagedObjectContext+MagicalSaves.m */,
-				C0073DAA577DED8C9F7C43F64F666EB9 /* NSManagedObjectContext+MagicalThreading.h */,
-				BBA0FD1177C4F8C1CCAE372204C84298 /* NSManagedObjectContext+MagicalThreading.m */,
-				670B6C07F289B1039F5CF3D986C4BE6F /* NSManagedObjectModel+MagicalRecord.h */,
-				A8A54E6948F07243BD6BC5AC75E68236 /* NSManagedObjectModel+MagicalRecord.m */,
-				C02FBE7AA3C9AE6BEED86BEC8757AD40 /* NSNumber+MagicalDataImport.h */,
-				2AF872DAE3CFEF13120AA26B1AF82E72 /* NSNumber+MagicalDataImport.m */,
-				1D7295EF96D4F287318CE30B111E63DC /* NSObject+MagicalDataImport.h */,
-				0FB38AF9583B614E511F71E65B7CF1B4 /* NSObject+MagicalDataImport.m */,
-				DADA6FC816487FA0C862A278AE23ADE1 /* NSPersistentStore+MagicalRecord.h */,
-				B20AAD5108C94EFEDD7E5FF37B63612E /* NSPersistentStore+MagicalRecord.m */,
-				07FF1192499A50F050180F5CF91ADE98 /* NSPersistentStoreCoordinator+MagicalRecord.h */,
-				33279C09A07C0A1285C2255323E88486 /* NSPersistentStoreCoordinator+MagicalRecord.m */,
-				888A5493EA756BF80E08F5687BF3A35A /* NSRelationshipDescription+MagicalDataImport.h */,
-				6A1C89C7FB8573F97E04EE22C68FF63A /* NSRelationshipDescription+MagicalDataImport.m */,
-				3546AC1DD097385C2943750BEBD72873 /* NSString+MagicalDataImport.h */,
-				164C75E8723786FC10EBFE8F2CD1E5EB /* NSString+MagicalDataImport.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		91C01AF0054B2482E5DB4BE9E056768A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4BBC3B760F58964F9EBD27713BCA9B53 /* Info.plist */,
-				34D8C818BECED4A05407A284572F72A2 /* ORCoreData.modulemap */,
-				FD89BFDD5A68810CC5C2DF0530F58259 /* ORCoreData.xcconfig */,
-				EF20DF6B0CE0AE0BA64A4132DEDFDB13 /* ORCoreData-dummy.m */,
-				D7E76C6311370A30A7C491934A19CA7A /* ORCoreData-prefix.pch */,
-				04AB910B87AC60B9BA19A3B1290AE20E /* ORCoreData-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ORCoreData";
-			sourceTree = "<group>";
-		};
-		A96D1134F39F25F1AEBF94E9711FF816 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D79A92168288814D2F498C17C6F347E6 /* ORCoreData */,
+				5A6AA96A0ABA7721FE24BA7D6ACFAAAE /* ORCoreData */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		C228CA0FE0D3480F0E671F38F946B585 /* iOS */ = {
+		23A3D739CCE4CA07562046E8EDD4EE4F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				237C308B54D0277E4D3087F7F83F4436 /* CoreData.framework */,
-				C09E9011EE92AC42635FEAF47C5BBDAF /* Foundation.framework */,
+				E1BA2E13332914914ED55B3A7643D689 /* Pods-ORCoreData_Example */,
+				B932D76E3B0DFAF0DA46447009017CD4 /* Pods-ORCoreData_Tests */,
 			);
-			name = iOS;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C7382EB1791640A86C2EF8B0E767109C /* Support Files */ = {
+		3F574B7703C83A185018780C80B3B0E7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				46D04A23E6AA0667F4AA2B74CA0E57D6 /* Info.plist */,
-				190454EBC06BCA5967B8DF262A2D5D2E /* MagicalRecord.modulemap */,
-				C98319DD6233B2AA0A77BFB659B2DADD /* MagicalRecord.xcconfig */,
-				6C1413D515AB2851F0712568549261C1 /* MagicalRecord-dummy.m */,
-				963C429AA50C66CF0C5D92E6736D0450 /* MagicalRecord-prefix.pch */,
-				338196153BEBA2F4A015B7179A75CFE2 /* MagicalRecord-umbrella.h */,
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				F269F95E594A8575B15934F229BF1FCE /* ORCoreData.framework */,
+				13F8E585930B2EE5F887D55E0256EF84 /* Pods_ORCoreData_Example.framework */,
+				C3B25EAF0A2FE75F8BF33D0D28E280D3 /* Pods_ORCoreData_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */,
+				418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */,
+				3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */,
+				1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */,
+				746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */,
+				E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/MagicalRecord";
+			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
-		D79A92168288814D2F498C17C6F347E6 /* ORCoreData */ = {
+		5A6AA96A0ABA7721FE24BA7D6ACFAAAE /* ORCoreData */ = {
 			isa = PBXGroup;
 			children = (
-				875F1067E9522D522A4BA1904D9C7392 /* FindEntityTraitProtocol.swift */,
-				99D6E7096363A1E2F5C15E5560B0F0B2 /* ORCoreDataEntityFinderAndCreator.swift */,
-				3DEC9EC9B169AB611D80D53EDE0EDCF9 /* ORCoreDataRemover.swift */,
-				DF6B5D58A9535A790537FE6736924883 /* ORCoreDataSaver.swift */,
-				F43610624C607048B5A5B4E57859BC36 /* Pod */,
-				91C01AF0054B2482E5DB4BE9E056768A /* Support Files */,
+				8CFC936D0B844B69B10C349384D87C5E /* ReplaceMe.swift */,
+				6E2E954162EAAD8EA91AABF91EEC4C27 /* Pod */,
+				7C5FD088BA3102F82ADDF7B4943D4DAA /* Support Files */,
 			);
 			name = ORCoreData;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		E33F5E44FBD6039EDAECC80A253F535C /* Frameworks */ = {
+		6E2E954162EAAD8EA91AABF91EEC4C27 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				1712BE38DA8CFF82DB67665FC9263E26 /* MagicalRecord.framework */,
-				C228CA0FE0D3480F0E671F38F946B585 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F43610624C607048B5A5B4E57859BC36 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				609C85AB615B766930CC61EE84773020 /* LICENSE */,
-				196E89D42718B334416BCD9A1FD2CABD /* ORCoreData.podspec */,
-				1D3FC98F169C8A7B95EF447BCF4A9E4D /* README.md */,
+				ACB1D1F942E90F6BAF0B04F62BB9E74E /* LICENSE */,
+				470DAFDD2B6AA45CB48B9912DE90E5FB /* ORCoreData.podspec */,
+				F2833CDAD0D16F5914A4A89018F8E129 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		FD82D7439944876EA161D4B2BB9CFC88 /* Pods-ORCoreData_Example */ = {
+		7C5FD088BA3102F82ADDF7B4943D4DAA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2C2CF063A5BB9BB366510A25974179CB /* Info.plist */,
-				949232B651912F31CDB75CB2FF6DE4C6 /* Pods-ORCoreData_Example.modulemap */,
-				6A654AB5C9A1EE5E4B5479FA5BAF87C2 /* Pods-ORCoreData_Example-acknowledgements.markdown */,
-				A43DF2276B285CFB9F2A35753EDDCB54 /* Pods-ORCoreData_Example-acknowledgements.plist */,
-				C340223D696808D75C2BECE734CC7184 /* Pods-ORCoreData_Example-dummy.m */,
-				A73982AA85AFAF00D44113BCA64164CF /* Pods-ORCoreData_Example-frameworks.sh */,
-				61455B76A27E5F0E94833816829A27E6 /* Pods-ORCoreData_Example-resources.sh */,
-				B8DEAB42E1AA07817269174996EFA4CC /* Pods-ORCoreData_Example-umbrella.h */,
-				4AFB727664AEB9A3F1DB75AE557F0CCA /* Pods-ORCoreData_Example.debug.xcconfig */,
-				2403AF08E2CE9B0AC4AB30707AC17744 /* Pods-ORCoreData_Example.release.xcconfig */,
+				A6C609A463FF37C9C76F9BA9BB299AB8 /* ORCoreData.modulemap */,
+				E1C8C0026A26E9594D0238F3547211AC /* ORCoreData.xcconfig */,
+				6D627D2348C6A63F0D050188F07993A2 /* ORCoreData-dummy.m */,
+				94B6D5B183BF141F91789E4AE199E877 /* ORCoreData-Info.plist */,
+				A64F6E4ACEA98B18ADB9F33164FCDCC1 /* ORCoreData-prefix.pch */,
+				E41A877833BD0402E97BD177AB236286 /* ORCoreData-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ORCoreData";
+			sourceTree = "<group>";
+		};
+		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */,
+				716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */,
+				8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */,
+				5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		820C839EC049005CB82FAAF13AFDCB95 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				9DD967528FC2F5BD41E45879D4B78BEE /* Core */,
+				45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */,
+				820C839EC049005CB82FAAF13AFDCB95 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		9DD967528FC2F5BD41E45879D4B78BEE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */,
+				13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */,
+				D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */,
+				AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */,
+				88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */,
+				DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */,
+				0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */,
+				8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */,
+				A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */,
+				EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */,
+				E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */,
+				E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */,
+				EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */,
+				AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		B932D76E3B0DFAF0DA46447009017CD4 /* Pods-ORCoreData_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				760477037ACF86B1DA6F3EF7D49A326F /* Pods-ORCoreData_Tests.modulemap */,
+				C8494C1D394284FC2BD79CFBFB1617DF /* Pods-ORCoreData_Tests-acknowledgements.markdown */,
+				BB8332F1AEFA97C8E91CC3F4AFD16E67 /* Pods-ORCoreData_Tests-acknowledgements.plist */,
+				C8FB0BC1639E8DDDE41EC64DEE7816F3 /* Pods-ORCoreData_Tests-dummy.m */,
+				0910FC8B917F61F5AC7E6E8B42042646 /* Pods-ORCoreData_Tests-frameworks.sh */,
+				136377A0033518D2B44DDD825A418EB0 /* Pods-ORCoreData_Tests-Info.plist */,
+				2164C8AD84E9E43E37C8D7ECBB15162A /* Pods-ORCoreData_Tests-umbrella.h */,
+				3F580D33027FECAC720D2B10E0E2A11A /* Pods-ORCoreData_Tests.debug.xcconfig */,
+				D8D330EEE5C6391DD8C0B2D80D961429 /* Pods-ORCoreData_Tests.release.xcconfig */,
+			);
+			name = "Pods-ORCoreData_Tests";
+			path = "Target Support Files/Pods-ORCoreData_Tests";
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DE5752EED0A4C4A430975244947611A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				083AA5C3B137B841B2603DB1C46992CC /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				E81A37DBDE41E671312C56736544E2FA /* Pods */,
+				3F574B7703C83A185018780C80B3B0E7 /* Products */,
+				23A3D739CCE4CA07562046E8EDD4EE4F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E1BA2E13332914914ED55B3A7643D689 /* Pods-ORCoreData_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4120BAB13C47208B0A90306C109F9B39 /* Pods-ORCoreData_Example.modulemap */,
+				83A7719B3BECA9BF1A8B1EDB76EE0136 /* Pods-ORCoreData_Example-acknowledgements.markdown */,
+				CA0DA78B6C91AA6B2DFABC625163068C /* Pods-ORCoreData_Example-acknowledgements.plist */,
+				E27EAED6D70682FD9B7B96B6EAC60BDE /* Pods-ORCoreData_Example-dummy.m */,
+				DCEC00752A642FB3D5506C9458559738 /* Pods-ORCoreData_Example-frameworks.sh */,
+				3A17FA24E5656D4F13BA9A1FCB4BFA2B /* Pods-ORCoreData_Example-Info.plist */,
+				41D3E034EE95FDAA5CFEDF2316CD8106 /* Pods-ORCoreData_Example-umbrella.h */,
+				C0F0EBA4A792977F513E6DBCB15BE3D4 /* Pods-ORCoreData_Example.debug.xcconfig */,
+				9F2FD0820FE03B5701D7BA21796F5562 /* Pods-ORCoreData_Example.release.xcconfig */,
 			);
 			name = "Pods-ORCoreData_Example";
 			path = "Target Support Files/Pods-ORCoreData_Example";
 			sourceTree = "<group>";
 		};
+		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		14C21E65B16B9432872B1292D392E614 /* Headers */ = {
+		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E64A069E0DEBDF380479164F26681E2F /* MagicalImportFunctions.h in Headers */,
-				718F56AD263AD8CE2E07253D85387488 /* MagicalRecord+Actions.h in Headers */,
-				6009057BD8880E5B5371F0C74998E528 /* MagicalRecord+ErrorHandling.h in Headers */,
-				7EE0BCB9BEB65F7135321AFB98B4CEA0 /* MagicalRecord+iCloud.h in Headers */,
-				B13BA04A507D42EAA925EE4E36B86120 /* MagicalRecord+Options.h in Headers */,
-				29E2065A0D8009FFAFA6DE99906A5208 /* MagicalRecord+Setup.h in Headers */,
-				812A1733C9D53A1FED01D21505BAE42A /* MagicalRecord+ShorthandMethods.h in Headers */,
-				8F6D8A6ECD401E473E6A7C7FAD9B57BA /* MagicalRecord-umbrella.h in Headers */,
-				F6D1E7C8E211077BB8CD122DB1247C6E /* MagicalRecord.h in Headers */,
-				183247DEA1FCBD441B73B4F998F6D972 /* MagicalRecordDeprecationMacros.h in Headers */,
-				8C6DC9DC9079D10F9C5F93E44908BF58 /* MagicalRecordInternal.h in Headers */,
-				8767BC32944118104794138295CD1796 /* MagicalRecordLogging.h in Headers */,
-				CDDF53E9D7941262BA964AEAFAF8371B /* MagicalRecordXcode7CompatibilityMacros.h in Headers */,
-				8EC7032076CEA8A7D4F0C66636E92264 /* NSAttributeDescription+MagicalDataImport.h in Headers */,
-				9232F60076146483DA3E56B279E848C6 /* NSEntityDescription+MagicalDataImport.h in Headers */,
-				1F89CD01C16E0C7BBABF0A32396B9844 /* NSManagedObject+MagicalAggregation.h in Headers */,
-				D7CB8563B7D97140ED5D8CAD927CCFCD /* NSManagedObject+MagicalDataImport.h in Headers */,
-				EC84CC87C178F24D6488560D5B54A88B /* NSManagedObject+MagicalFinders.h in Headers */,
-				F1A10C256934D2081EDE263991DFEC4D /* NSManagedObject+MagicalRecord.h in Headers */,
-				F9D59ECDDF67F514C74392E2705F717B /* NSManagedObject+MagicalRequests.h in Headers */,
-				7B935B5BEE6F0DA357D4C7744EDE2095 /* NSManagedObjectContext+MagicalChainSave.h in Headers */,
-				98F45FB1C6376DBECDDACD3F78F20010 /* NSManagedObjectContext+MagicalObserving.h in Headers */,
-				4965A3BA359101E378207466D47CB7F3 /* NSManagedObjectContext+MagicalRecord.h in Headers */,
-				29B3A8EE3C8262F7D717D8ADEE8DB44E /* NSManagedObjectContext+MagicalSaves.h in Headers */,
-				049B0F382F6FEB840CD8FC12903E4F6C /* NSManagedObjectContext+MagicalThreading.h in Headers */,
-				BDA7759FF33328ED8202E2E8A108BAC2 /* NSManagedObjectModel+MagicalRecord.h in Headers */,
-				32FD26CB82B4FC3ABCEA9856C6DEB31A /* NSNumber+MagicalDataImport.h in Headers */,
-				6975B1C96EB0B561FEFB4B6B6C17BCA7 /* NSObject+MagicalDataImport.h in Headers */,
-				E933198FA27D72DC73B0EAB6520E0CB3 /* NSPersistentStore+MagicalRecord.h in Headers */,
-				B7A6C2BAFC470D22F32B8D2DF8679436 /* NSPersistentStoreCoordinator+MagicalRecord.h in Headers */,
-				FC79E56FDB6ADB79D71C1CC74CAC06DF /* NSRelationshipDescription+MagicalDataImport.h in Headers */,
-				F10229BBC43F6EC57924290A18B7EA15 /* NSString+MagicalDataImport.h in Headers */,
+				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
+				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
+				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
+				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
+				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
+				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
+				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1682061CB1567BC89847E2CE4B3BC814 /* Headers */ = {
+		5974B349678252C6CD57D545A3B6BB6C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AA588E1E0C28DD95C587B16B0144FAE /* ORCoreData-umbrella.h in Headers */,
+				3FD88E457C4F76A78F50276A8D4CB309 /* Pods-ORCoreData_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		17A2A1D3D773FEAE67D0CDE9BE371E59 /* Headers */ = {
+		9D8537517903DAD0BBEDEF6E8371A02C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E22F986488FAC1A7AF4256FEE04B1174 /* Pods-ORCoreData_Tests-umbrella.h in Headers */,
+				DEB777CF571BB937E93748F3FEB1CBB1 /* ORCoreData-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8EC3B20B2EC3A9006159F11621515133 /* Headers */ = {
+		B67B0E5E5AD47CE13030C8C3D9428D7F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E50F5C19C04AA061BB2BDF40FF10DAD0 /* Pods-ORCoreData_Example-umbrella.h in Headers */,
+				3DB51D76FB4528F4A773ECBBA1961521 /* Pods-ORCoreData_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		51075C1469178BE2CBC060E62F5E03ED /* Pods-ORCoreData_Example */ = {
+		5D4B798330378020A38B31359D95DC16 /* ORCoreData */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F83E3200F34415DAF9BD4E811BF8E7BF /* Build configuration list for PBXNativeTarget "Pods-ORCoreData_Example" */;
+			buildConfigurationList = 5F43B2ACA0EF166D1695BFE4E528904E /* Build configuration list for PBXNativeTarget "ORCoreData" */;
 			buildPhases = (
-				8EC3B20B2EC3A9006159F11621515133 /* Headers */,
-				827BC041E57F98B20D5CED7421A7DC03 /* Sources */,
-				1422505F04E14B036EDA82400A2C6D34 /* Frameworks */,
-				EF4620B8CAD0683888F88FE2E03A5096 /* Resources */,
+				9D8537517903DAD0BBEDEF6E8371A02C /* Headers */,
+				A2A7490BB57ABCA831750A3326F8DEB9 /* Sources */,
+				1184B6E5C5811059484EC9711E80B150 /* Frameworks */,
+				7E0C5B337F0EC790BA63A134AE4555A3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3A12190D7486A1BFE32A1536F7ADEB05 /* PBXTargetDependency */,
-				3B514100795EB1476CF23323638AA1CB /* PBXTargetDependency */,
-			);
-			name = "Pods-ORCoreData_Example";
-			productName = "Pods-ORCoreData_Example";
-			productReference = D4B2AC01ACD36DD2719FD183A8ED7210 /* Pods_ORCoreData_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		94EA9BDCEBC7E9A5399CAE8C367B9DD3 /* Pods-ORCoreData_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5E210EE5DDF205164595A1BD30E2D9FF /* Build configuration list for PBXNativeTarget "Pods-ORCoreData_Tests" */;
-			buildPhases = (
-				17A2A1D3D773FEAE67D0CDE9BE371E59 /* Headers */,
-				546E86F0136BC48E55E6988283010A29 /* Sources */,
-				1C0212BDA211AEDFCC303E6FC86D5549 /* Frameworks */,
-				EB876106EC3708C5D7DFA087B078D517 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FA6DF819CD284F3524DEC6CF989A8D3E /* PBXTargetDependency */,
-				89B95E7EB20BCE60AAF2A8C7F9BE5040 /* PBXTargetDependency */,
-			);
-			name = "Pods-ORCoreData_Tests";
-			productName = "Pods-ORCoreData_Tests";
-			productReference = 32EFAFCFAFBD472CC57CDA5D9BDE6985 /* Pods_ORCoreData_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		AA3E24EFC398594C300C06767C4AE5D4 /* MagicalRecord */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E82012B3067840081DB64BA6575F3FAC /* Build configuration list for PBXNativeTarget "MagicalRecord" */;
-			buildPhases = (
-				14C21E65B16B9432872B1292D392E614 /* Headers */,
-				1DFB6AC5A607153340823A4E4D154469 /* Sources */,
-				2888517B404CAC4C8C79AF8400B74D24 /* Frameworks */,
-				12C9DE93383B791BDA16D41F531C497E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MagicalRecord;
-			productName = MagicalRecord;
-			productReference = D51984B9A1B5D805AE75D5C0FF66E22D /* MagicalRecord.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F4AE61E792F939B301B09767BD13028B /* ORCoreData */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F2169DB0986A99897FD6891593F1E4B2 /* Build configuration list for PBXNativeTarget "ORCoreData" */;
-			buildPhases = (
-				1682061CB1567BC89847E2CE4B3BC814 /* Headers */,
-				27D586450275AD1C5A835D6203A3DEFA /* Sources */,
-				20319CAB3F554276916067EB98761305 /* Frameworks */,
-				4040B1A296B3DAF4DEBE053FAE7A75AC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7D22B8D30ABE5DED9143FE8F4AC7D2F0 /* PBXTargetDependency */,
 			);
 			name = ORCoreData;
 			productName = ORCoreData;
-			productReference = A33B0FCD526D7D39BAEACDE30B24A251 /* ORCoreData.framework */;
+			productReference = F269F95E594A8575B15934F229BF1FCE /* ORCoreData.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		853F5A59B0A49339C0263BBACD007D63 /* Pods-ORCoreData_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5005BDF5367BCCEAD2C94D7E5ACF9E15 /* Build configuration list for PBXNativeTarget "Pods-ORCoreData_Example" */;
+			buildPhases = (
+				5974B349678252C6CD57D545A3B6BB6C /* Headers */,
+				BE3CD03904F5920904E2EAFAF9A4329C /* Sources */,
+				AEE0860F75B784001A60DC3DCAA651C2 /* Frameworks */,
+				CD9D976B8CABD77017057E62FC394BAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				832B465045DF45DFBD47DA0551C316BB /* PBXTargetDependency */,
+			);
+			name = "Pods-ORCoreData_Example";
+			productName = "Pods-ORCoreData_Example";
+			productReference = 13F8E585930B2EE5F887D55E0256EF84 /* Pods_ORCoreData_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
+				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
+				E581515110D66F94F80A6937831489A1 /* Frameworks */,
+				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B0EFB7FFC9E9ECE093C31D955EB94CED /* Pods-ORCoreData_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AE69E17514E7B8C8EB58699EC781EC9 /* Build configuration list for PBXNativeTarget "Pods-ORCoreData_Tests" */;
+			buildPhases = (
+				B67B0E5E5AD47CE13030C8C3D9428D7F /* Headers */,
+				7DACB1A6CEB54653A89EAF92CA3A7266 /* Sources */,
+				5AB692615999D72158CC70FABB910EFA /* Frameworks */,
+				1FA372D221614CB00C1D632505D03193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				007966A7D53685B08BE0430377268E8D /* PBXTargetDependency */,
+				D2946460A1CC857B88E88563AD1580CC /* PBXTargetDependency */,
+			);
+			name = "Pods-ORCoreData_Tests";
+			productName = "Pods-ORCoreData_Tests";
+			productReference = C3B25EAF0A2FE75F8BF33D0D28E280D3 /* Pods_ORCoreData_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1220;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 86C9302031688E1CD2C6949AC2C679E0 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3F574B7703C83A185018780C80B3B0E7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA3E24EFC398594C300C06767C4AE5D4 /* MagicalRecord */,
-				F4AE61E792F939B301B09767BD13028B /* ORCoreData */,
-				51075C1469178BE2CBC060E62F5E03ED /* Pods-ORCoreData_Example */,
-				94EA9BDCEBC7E9A5399CAE8C367B9DD3 /* Pods-ORCoreData_Tests */,
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				5D4B798330378020A38B31359D95DC16 /* ORCoreData */,
+				853F5A59B0A49339C0263BBACD007D63 /* Pods-ORCoreData_Example */,
+				B0EFB7FFC9E9ECE093C31D955EB94CED /* Pods-ORCoreData_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		12C9DE93383B791BDA16D41F531C497E /* Resources */ = {
+		1FA372D221614CB00C1D632505D03193 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4040B1A296B3DAF4DEBE053FAE7A75AC /* Resources */ = {
+		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB876106EC3708C5D7DFA087B078D517 /* Resources */ = {
+		7E0C5B337F0EC790BA63A134AE4555A3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF4620B8CAD0683888F88FE2E03A5096 /* Resources */ = {
+		CD9D976B8CABD77017057E62FC394BAB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -705,108 +535,74 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1DFB6AC5A607153340823A4E4D154469 /* Sources */ = {
+		7DACB1A6CEB54653A89EAF92CA3A7266 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE976F4639C86FB23CB5E2E2B0131458 /* MagicalImportFunctions.m in Sources */,
-				708930F01A68FD33C141260B4133A296 /* MagicalRecord+Actions.m in Sources */,
-				1C72E0FA77C4189457401D8F81B91EA6 /* MagicalRecord+ErrorHandling.m in Sources */,
-				C81CC170642636A5B0A5BFCDC638971B /* MagicalRecord+iCloud.m in Sources */,
-				260C48828E8B7CD43694D9E80CE10F56 /* MagicalRecord+Options.m in Sources */,
-				16C3ED89DE5BE5C73262E542E53A736F /* MagicalRecord+Setup.m in Sources */,
-				FAF1A4F22D6634D965B5764137DD41F7 /* MagicalRecord+ShorthandMethods.m in Sources */,
-				3684B08341D024C816A0098A6FE9A227 /* MagicalRecord-dummy.m in Sources */,
-				474E3ADB716B9FB8875D9902A53874FB /* MagicalRecordInternal.m in Sources */,
-				86306FCA54F5004F0CB8478F2344CC60 /* NSAttributeDescription+MagicalDataImport.m in Sources */,
-				0FFDDABAA2DDA4F0BCFBF5C972026FEE /* NSEntityDescription+MagicalDataImport.m in Sources */,
-				9282136A17ED8CEA83163B53888F3B02 /* NSManagedObject+MagicalAggregation.m in Sources */,
-				571271867BD74FB28AD618C61C06BD1E /* NSManagedObject+MagicalDataImport.m in Sources */,
-				5D7243AD2B46C999B3D0053BF5FB2A57 /* NSManagedObject+MagicalFinders.m in Sources */,
-				3DDA3337ED274673CD97AFBD681FCFED /* NSManagedObject+MagicalRecord.m in Sources */,
-				39FEFAFFD9FAC76A272D7407278812F3 /* NSManagedObject+MagicalRequests.m in Sources */,
-				FE24D033DFF4DCB1CD24F6F5F1FC4299 /* NSManagedObjectContext+MagicalChainSave.m in Sources */,
-				65C32B96B43270DAB4FFE797D8D52AB6 /* NSManagedObjectContext+MagicalObserving.m in Sources */,
-				E723116B89DB669BBCA9001D420D8C44 /* NSManagedObjectContext+MagicalRecord.m in Sources */,
-				BDD4C9F3DCEEE5DC2BB8E1454D7CC1C1 /* NSManagedObjectContext+MagicalSaves.m in Sources */,
-				A6AE2A37196601CAF4516E6BAC2D48F7 /* NSManagedObjectContext+MagicalThreading.m in Sources */,
-				A29428CBB91B2297CAEF8332FE49E421 /* NSManagedObjectModel+MagicalRecord.m in Sources */,
-				3E569ED568AD55687CC5AB9B0C0D4058 /* NSNumber+MagicalDataImport.m in Sources */,
-				ACCC9D8AB8B769DB021819A45C6EF7AF /* NSObject+MagicalDataImport.m in Sources */,
-				FD217EBE1046E1A38591416ABC819C0A /* NSPersistentStore+MagicalRecord.m in Sources */,
-				2DA1B9210186EB1CE722847642E3355F /* NSPersistentStoreCoordinator+MagicalRecord.m in Sources */,
-				251612AC3BBE137903F1ED8C7A2637EC /* NSRelationshipDescription+MagicalDataImport.m in Sources */,
-				613672A770379455531B92173382E982 /* NSString+MagicalDataImport.m in Sources */,
+				05EB8F03AD5FE63C93CB3E407509E323 /* Pods-ORCoreData_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		27D586450275AD1C5A835D6203A3DEFA /* Sources */ = {
+		A2A7490BB57ABCA831750A3326F8DEB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84F3EF3AC88D844AD7B4DA3F82367446 /* FindEntityTraitProtocol.swift in Sources */,
-				2DCFD5D317D3DDA76E372AB516B4F4BF /* ORCoreData-dummy.m in Sources */,
-				5554C50A8F4EF7704E954CF54DB81D04 /* ORCoreDataEntityFinderAndCreator.swift in Sources */,
-				0F3B4801DD985E9CBFDF451E80E5207D /* ORCoreDataRemover.swift in Sources */,
-				2CE317CDEC81A0B8E3543853B95182B6 /* ORCoreDataSaver.swift in Sources */,
+				15770A1CA88A7390EA2AF4A3CBE99F3B /* ORCoreData-dummy.m in Sources */,
+				BE24484EDF7B96C7C0EC07F9852A4989 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		546E86F0136BC48E55E6988283010A29 /* Sources */ = {
+		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD31DE596F82184C3FE4272B02D6CC58 /* Pods-ORCoreData_Tests-dummy.m in Sources */,
+				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
+				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
+				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
+				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
+				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
+				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
+				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
+				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
+				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		827BC041E57F98B20D5CED7421A7DC03 /* Sources */ = {
+		BE3CD03904F5920904E2EAFAF9A4329C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EF733D9FED8325EC6FA4B30CCC9E6B4 /* Pods-ORCoreData_Example-dummy.m in Sources */,
+				C3EC23FB0CF696C5D1CC4B89CBBDC746 /* Pods-ORCoreData_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3A12190D7486A1BFE32A1536F7ADEB05 /* PBXTargetDependency */ = {
+		007966A7D53685B08BE0430377268E8D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = MagicalRecord;
-			target = AA3E24EFC398594C300C06767C4AE5D4 /* MagicalRecord */;
-			targetProxy = BEA4880C329A858BA65381C33E23C153 /* PBXContainerItemProxy */;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 3A3E5AC0559367D4A9A3F63C12B51E25 /* PBXContainerItemProxy */;
 		};
-		3B514100795EB1476CF23323638AA1CB /* PBXTargetDependency */ = {
+		832B465045DF45DFBD47DA0551C316BB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ORCoreData;
-			target = F4AE61E792F939B301B09767BD13028B /* ORCoreData */;
-			targetProxy = 1C5694E564F788F6917C3CBCF36D6BDA /* PBXContainerItemProxy */;
+			target = 5D4B798330378020A38B31359D95DC16 /* ORCoreData */;
+			targetProxy = 7D55F7747ECBA601EE80E5378F8472A2 /* PBXContainerItemProxy */;
 		};
-		7D22B8D30ABE5DED9143FE8F4AC7D2F0 /* PBXTargetDependency */ = {
+		D2946460A1CC857B88E88563AD1580CC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = MagicalRecord;
-			target = AA3E24EFC398594C300C06767C4AE5D4 /* MagicalRecord */;
-			targetProxy = C312F526E69DD6E2A2D41639E6ED12F6 /* PBXContainerItemProxy */;
-		};
-		89B95E7EB20BCE60AAF2A8C7F9BE5040 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ORCoreData;
-			target = F4AE61E792F939B301B09767BD13028B /* ORCoreData */;
-			targetProxy = 6EA4520149DF4A5CDB7C05A0DBAF15ED /* PBXContainerItemProxy */;
-		};
-		FA6DF819CD284F3524DEC6CF989A8D3E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MagicalRecord;
-			target = AA3E24EFC398594C300C06767C4AE5D4 /* MagicalRecord */;
-			targetProxy = FB5B00F16D5BFA6E2DEE989637576FD8 /* PBXContainerItemProxy */;
+			name = "Pods-ORCoreData_Example";
+			target = 853F5A59B0A49339C0263BBACD007D63 /* Pods-ORCoreData_Example */;
+			targetProxy = DED40BFC1581F2D44F150897D5D610CF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		02A07E9D92C4D9B018F50CCC728E4E21 /* Debug */ = {
+		5710B95DA6695763D36D43819D305896 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AFB727664AEB9A3F1DB75AE557F0CCA /* Pods-ORCoreData_Example.debug.xcconfig */;
+			baseConfigurationReference = 3F580D33027FECAC720D2B10E0E2A11A /* Pods-ORCoreData_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -818,9 +614,42 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ORCoreData_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ORCoreData_Tests/Pods-ORCoreData_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ORCoreData_Tests/Pods-ORCoreData_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		619D2AF86CAAB7471B34B1B694B04FBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F2FD0820FE03B5701D7BA21796F5562 /* Pods-ORCoreData_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ORCoreData_Example/Pods-ORCoreData_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ORCoreData_Example/Pods-ORCoreData_Example.modulemap";
@@ -831,16 +660,16 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		4C7AB3F4DEAF6370DF395F802894EE8D /* Release */ = {
+		6981B49048575F8238B3C5B905C918E5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C98319DD6233B2AA0A77BFB659B2DADD /* MagicalRecord.xcconfig */;
+			baseConfigurationReference = 418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -851,18 +680,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MagicalRecord/MagicalRecord-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MagicalRecord/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MagicalRecord/MagicalRecord.modulemap";
-				PRODUCT_MODULE_NAME = MagicalRecord;
-				PRODUCT_NAME = MagicalRecord;
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -870,11 +699,77 @@
 			};
 			name = Release;
 		};
-		6C6EACA84DA9A4D8A1E4E2501D3848D0 /* Debug */ = {
+		74F6C995261F830F12D0955835E02D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0F0EBA4A792977F513E6DBCB15BE3D4 /* Pods-ORCoreData_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ORCoreData_Example/Pods-ORCoreData_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ORCoreData_Example/Pods-ORCoreData_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8E5D42E35BF3E0FF3A646F9A16763803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8D330EEE5C6391DD8C0B2D80D961429 /* Pods-ORCoreData_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ORCoreData_Tests/Pods-ORCoreData_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ORCoreData_Tests/Pods-ORCoreData_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -897,15 +792,72 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -925,7 +877,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -933,14 +885,14 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		6F8DF43245A912492420174F4FC7067B /* Debug */ = {
+		E39BF4F7277EE8C7E4E04286F1CBBAF0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD89BFDD5A68810CC5C2DF0530F58259 /* ORCoreData.xcconfig */;
+			baseConfigurationReference = E1C8C0026A26E9594D0238F3547211AC /* ORCoreData.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -952,9 +904,9 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/ORCoreData/ORCoreData-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ORCoreData/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/ORCoreData/ORCoreData-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ORCoreData/ORCoreData.modulemap";
 				PRODUCT_MODULE_NAME = ORCoreData;
@@ -962,41 +914,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7075837A68CF2C4664668EB42B27CA9B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00557A44FC913324B81E9624C96F57D8 /* Pods-ORCoreData_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ORCoreData_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ORCoreData_Tests/Pods-ORCoreData_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1004,78 +922,9 @@
 			};
 			name = Release;
 		};
-		9574F001E890987C0B10C963FE3B97A1 /* Release */ = {
+		EE252C6C51286892441EE171776C7E81 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2403AF08E2CE9B0AC4AB30707AC17744 /* Pods-ORCoreData_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ORCoreData_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ORCoreData_Example/Pods-ORCoreData_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		973F022F4745D49BBD9B3A98FCDCD978 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 515718204A04770421671D05A44175F9 /* Pods-ORCoreData_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ORCoreData_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ORCoreData_Tests/Pods-ORCoreData_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C8B081A5A8D5952A0235971806EE2286 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C98319DD6233B2AA0A77BFB659B2DADD /* MagicalRecord.xcconfig */;
+			baseConfigurationReference = 418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1086,90 +935,27 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MagicalRecord/MagicalRecord-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MagicalRecord/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MagicalRecord/MagicalRecord.modulemap";
-				PRODUCT_MODULE_NAME = MagicalRecord;
-				PRODUCT_NAME = MagicalRecord;
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		D9B851E8D67D359282551F91AF242887 /* Release */ = {
+		FED6AADF7C03EC9AF796CFC01E4378C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		EC9E12073E1252D373587260F8202FC9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD89BFDD5A68810CC5C2DF0530F58259 /* ORCoreData.xcconfig */;
+			baseConfigurationReference = E1C8C0026A26E9594D0238F3547211AC /* ORCoreData.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1181,9 +967,9 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/ORCoreData/ORCoreData-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ORCoreData/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/ORCoreData/ORCoreData-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ORCoreData/ORCoreData.modulemap";
 				PRODUCT_MODULE_NAME = ORCoreData;
@@ -1191,63 +977,62 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		3AE69E17514E7B8C8EB58699EC781EC9 /* Build configuration list for PBXNativeTarget "Pods-ORCoreData_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6C6EACA84DA9A4D8A1E4E2501D3848D0 /* Debug */,
-				D9B851E8D67D359282551F91AF242887 /* Release */,
+				5710B95DA6695763D36D43819D305896 /* Debug */,
+				8E5D42E35BF3E0FF3A646F9A16763803 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E210EE5DDF205164595A1BD30E2D9FF /* Build configuration list for PBXNativeTarget "Pods-ORCoreData_Tests" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				973F022F4745D49BBD9B3A98FCDCD978 /* Debug */,
-				7075837A68CF2C4664668EB42B27CA9B /* Release */,
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E82012B3067840081DB64BA6575F3FAC /* Build configuration list for PBXNativeTarget "MagicalRecord" */ = {
+		5005BDF5367BCCEAD2C94D7E5ACF9E15 /* Build configuration list for PBXNativeTarget "Pods-ORCoreData_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C8B081A5A8D5952A0235971806EE2286 /* Debug */,
-				4C7AB3F4DEAF6370DF395F802894EE8D /* Release */,
+				74F6C995261F830F12D0955835E02D94 /* Debug */,
+				619D2AF86CAAB7471B34B1B694B04FBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F2169DB0986A99897FD6891593F1E4B2 /* Build configuration list for PBXNativeTarget "ORCoreData" */ = {
+		5F43B2ACA0EF166D1695BFE4E528904E /* Build configuration list for PBXNativeTarget "ORCoreData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6F8DF43245A912492420174F4FC7067B /* Debug */,
-				EC9E12073E1252D373587260F8202FC9 /* Release */,
+				FED6AADF7C03EC9AF796CFC01E4378C8 /* Debug */,
+				E39BF4F7277EE8C7E4E04286F1CBBAF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F83E3200F34415DAF9BD4E811BF8E7BF /* Build configuration list for PBXNativeTarget "Pods-ORCoreData_Example" */ = {
+		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				02A07E9D92C4D9B018F50CCC728E4E21 /* Debug */,
-				9574F001E890987C0B10C963FE3B97A1 /* Release */,
+				EE252C6C51286892441EE171776C7E81 /* Debug */,
+				6981B49048575F8238B3C5B905C918E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

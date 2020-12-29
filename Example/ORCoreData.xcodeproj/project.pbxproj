@@ -7,22 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		065499E0E908A7032B6293EF /* Pods_ORCoreData_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA93979EE1E8EBA99E9A527 /* Pods_ORCoreData_Tests.framework */; };
-		42D8511FA07113F8D6B74FE7 /* Pods_ORCoreData_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C08CDA6DD72FE6D69D1E3F /* Pods_ORCoreData_Example.framework */; };
+		1E2CD85560316C4BBEA4A9FE /* Pods_ORCoreData_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312CAC2B725E8149652042FF /* Pods_ORCoreData_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		947DE7BF1E44A1B6003FECAB /* ORCoreDataRemoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947DE7BE1E44A1B6003FECAB /* ORCoreDataRemoverTests.swift */; };
-		94A671801CB711C300904AEB /* ORCoreDataSaverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A6717F1CB711C300904AEB /* ORCoreDataSaverTests.swift */; };
-		94A671871CB713C300904AEB /* ORCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94A671851CB713C300904AEB /* ORCoreData.xcdatamodeld */; };
-		94A6718A1CB7145100904AEB /* TestEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A671881CB7145100904AEB /* TestEntity+CoreDataProperties.swift */; };
-		94A6718B1CB7145100904AEB /* TestEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A671891CB7145100904AEB /* TestEntity.swift */; };
-		94A671901CB7166900904AEB /* ORCoreDataEntityFinderAndCreatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A6718F1CB7166900904AEB /* ORCoreDataEntityFinderAndCreatorTests.swift */; };
-		94A671921CB7169E00904AEB /* ORBaseTestWithCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A671911CB7169E00904AEB /* ORBaseTestWithCoreData.swift */; };
-		94A75B891E44A87300EA6FB3 /* AnotherTestEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A75B871E44A87300EA6FB3 /* AnotherTestEntity+CoreDataClass.swift */; };
-		94A75B8A1E44A87300EA6FB3 /* AnotherTestEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A75B881E44A87300EA6FB3 /* AnotherTestEntity+CoreDataProperties.swift */; };
+		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		A5A85586D147B91CDA086E24 /* Pods_ORCoreData_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034C8520C883789D39E991C1 /* Pods_ORCoreData_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BA93979EE1E8EBA99E9A527 /* Pods_ORCoreData_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ORCoreData_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		109C870BEE095E0FBC90A442 /* Pods-ORCoreData_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORCoreData_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ORCoreData_Tests/Pods-ORCoreData_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1AFEAF8D3DF0B0DF3574874F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		403B7B44A7E51FB50B9B9E46 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		034C8520C883789D39E991C1 /* Pods_ORCoreData_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ORCoreData_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C9DE4559CEC9FD2D7BA2FE8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		312CAC2B725E8149652042FF /* Pods_ORCoreData_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ORCoreData_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B1A7DF2E733C1530B8AA244 /* Pods-ORCoreData_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORCoreData_Example.debug.xcconfig"; path = "Target Support Files/Pods-ORCoreData_Example/Pods-ORCoreData_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ORCoreData_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ORCoreData_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,20 +41,12 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* ORCoreData_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ORCoreData_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7AE233407B966DAA18697E48 /* Pods-ORCoreData_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORCoreData_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ORCoreData_Example/Pods-ORCoreData_Example.release.xcconfig"; sourceTree = "<group>"; };
-		947DE7BE1E44A1B6003FECAB /* ORCoreDataRemoverTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ORCoreDataRemoverTests.swift; sourceTree = "<group>"; };
-		94A6717F1CB711C300904AEB /* ORCoreDataSaverTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ORCoreDataSaverTests.swift; sourceTree = "<group>"; };
-		94A671861CB713C300904AEB /* ORCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ORCoreData.xcdatamodel; sourceTree = "<group>"; };
-		94A671881CB7145100904AEB /* TestEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TestEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		94A671891CB7145100904AEB /* TestEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestEntity.swift; sourceTree = "<group>"; };
-		94A6718F1CB7166900904AEB /* ORCoreDataEntityFinderAndCreatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ORCoreDataEntityFinderAndCreatorTests.swift; sourceTree = "<group>"; };
-		94A671911CB7169E00904AEB /* ORBaseTestWithCoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ORBaseTestWithCoreData.swift; sourceTree = "<group>"; };
-		94A75B871E44A87300EA6FB3 /* AnotherTestEntity+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AnotherTestEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
-		94A75B881E44A87300EA6FB3 /* AnotherTestEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AnotherTestEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		B1C08CDA6DD72FE6D69D1E3F /* Pods_ORCoreData_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ORCoreData_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C07858C5F642DDA07D8B0C3E /* Pods-ORCoreData_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORCoreData_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ORCoreData_Tests/Pods-ORCoreData_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E35A8C28B8CC6AE2942C6588 /* ORCoreData.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ORCoreData.podspec; path = ../ORCoreData.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F951E6602CF21E17230219F3 /* Pods-ORCoreData_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORCoreData_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ORCoreData_Example/Pods-ORCoreData_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		6604846B4F7ECBAB69DE17DE /* ORCoreData.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ORCoreData.podspec; path = ../ORCoreData.podspec; sourceTree = "<group>"; };
+		7F013CB69B5051B4D524DE9B /* Pods-ORCoreData_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORCoreData_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ORCoreData_Tests/Pods-ORCoreData_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF1A017E9A7028361D3874EE /* Pods-ORCoreData_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORCoreData_Tests.release.xcconfig"; path = "Target Support Files/Pods-ORCoreData_Tests/Pods-ORCoreData_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EF998565E45DE391637100F1 /* Pods-ORCoreData_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORCoreData_Example.release.xcconfig"; path = "Target Support Files/Pods-ORCoreData_Example/Pods-ORCoreData_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F9EA5C80437A19398E403825 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42D8511FA07113F8D6B74FE7 /* Pods_ORCoreData_Example.framework in Frameworks */,
+				1E2CD85560316C4BBEA4A9FE /* Pods_ORCoreData_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,24 +62,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				065499E0E908A7032B6293EF /* Pods_ORCoreData_Tests.framework in Frameworks */,
+				A5A85586D147B91CDA086E24 /* Pods_ORCoreData_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		21BD55ED6120716CEE7865E9 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F951E6602CF21E17230219F3 /* Pods-ORCoreData_Example.debug.xcconfig */,
-				7AE233407B966DAA18697E48 /* Pods-ORCoreData_Example.release.xcconfig */,
-				109C870BEE095E0FBC90A442 /* Pods-ORCoreData_Tests.debug.xcconfig */,
-				C07858C5F642DDA07D8B0C3E /* Pods-ORCoreData_Tests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -103,8 +76,8 @@
 				607FACD21AFB9204008FA782 /* Example for ORCoreData */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				21BD55ED6120716CEE7865E9 /* Pods */,
-				9DD09B40D89EDF28FC92026F /* Frameworks */,
+				9D44C9903B011300E326A2C9 /* Pods */,
+				DBDFFA5849F1B746DCFD8624 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,17 +93,12 @@
 		607FACD21AFB9204008FA782 /* Example for ORCoreData */ = {
 			isa = PBXGroup;
 			children = (
-				94A75B871E44A87300EA6FB3 /* AnotherTestEntity+CoreDataClass.swift */,
-				94A75B881E44A87300EA6FB3 /* AnotherTestEntity+CoreDataProperties.swift */,
-				94A671881CB7145100904AEB /* TestEntity+CoreDataProperties.swift */,
-				94A671891CB7145100904AEB /* TestEntity.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
-				94A671851CB713C300904AEB /* ORCoreData.xcdatamodeld */,
 			);
 			name = "Example for ORCoreData";
 			path = ORCoreData;
@@ -147,10 +115,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				94A671911CB7169E00904AEB /* ORBaseTestWithCoreData.swift */,
-				94A6717F1CB711C300904AEB /* ORCoreDataSaverTests.swift */,
-				94A6718F1CB7166900904AEB /* ORCoreDataEntityFinderAndCreatorTests.swift */,
-				947DE7BE1E44A1B6003FECAB /* ORCoreDataRemoverTests.swift */,
+				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -167,18 +132,30 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				E35A8C28B8CC6AE2942C6588 /* ORCoreData.podspec */,
-				403B7B44A7E51FB50B9B9E46 /* README.md */,
-				1AFEAF8D3DF0B0DF3574874F /* LICENSE */,
+				6604846B4F7ECBAB69DE17DE /* ORCoreData.podspec */,
+				2C9DE4559CEC9FD2D7BA2FE8 /* README.md */,
+				F9EA5C80437A19398E403825 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		9DD09B40D89EDF28FC92026F /* Frameworks */ = {
+		9D44C9903B011300E326A2C9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B1C08CDA6DD72FE6D69D1E3F /* Pods_ORCoreData_Example.framework */,
-				0BA93979EE1E8EBA99E9A527 /* Pods_ORCoreData_Tests.framework */,
+				3B1A7DF2E733C1530B8AA244 /* Pods-ORCoreData_Example.debug.xcconfig */,
+				EF998565E45DE391637100F1 /* Pods-ORCoreData_Example.release.xcconfig */,
+				7F013CB69B5051B4D524DE9B /* Pods-ORCoreData_Tests.debug.xcconfig */,
+				EF1A017E9A7028361D3874EE /* Pods-ORCoreData_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DBDFFA5849F1B746DCFD8624 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				312CAC2B725E8149652042FF /* Pods_ORCoreData_Example.framework */,
+				034C8520C883789D39E991C1 /* Pods_ORCoreData_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -190,11 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ORCoreData_Example" */;
 			buildPhases = (
-				4ED85BA0B0A1C8F6DB6B093E /* [CP] Check Pods Manifest.lock */,
+				684431A741BE49C276A220C1 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				8738F644D24C0905A8A81FD5 /* [CP] Embed Pods Frameworks */,
+				0D34F4F7DA851A2418D8800A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -209,11 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ORCoreData_Tests" */;
 			buildPhases = (
-				7D42B0613C597C5191AAFAD8 /* [CP] Check Pods Manifest.lock */,
+				68269E62EB340CC4C995F0B3 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				FE01012CFA36ACFC089FC729 /* [CP] Embed Pods Frameworks */,
+				1B8B690DA82E267C8EE65F9C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,19 +208,17 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0800;
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = NWAXZVJAA5;
-						LastSwiftMigration = 0920;
+						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = NWAXZVJAA5;
-						LastSwiftMigration = 0920;
+						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -288,34 +263,56 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4ED85BA0B0A1C8F6DB6B093E /* [CP] Check Pods Manifest.lock */ = {
+		0D34F4F7DA851A2418D8800A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${PODS_ROOT}/Target Support Files/Pods-ORCoreData_Example/Pods-ORCoreData_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ORCoreData/ORCoreData.framework",
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ORCoreData_Example-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ORCoreData.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ORCoreData_Example/Pods-ORCoreData_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7D42B0613C597C5191AAFAD8 /* [CP] Check Pods Manifest.lock */ = {
+		1B8B690DA82E267C8EE65F9C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ORCoreData_Tests/Pods-ORCoreData_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ORCoreData_Tests/Pods-ORCoreData_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68269E62EB340CC4C995F0B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-ORCoreData_Tests-checkManifestLockResult.txt",
 			);
@@ -324,44 +321,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8738F644D24C0905A8A81FD5 /* [CP] Embed Pods Frameworks */ = {
+		684431A741BE49C276A220C1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ORCoreData_Example/Pods-ORCoreData_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MagicalRecord/MagicalRecord.framework",
-				"${BUILT_PRODUCTS_DIR}/ORCoreData/ORCoreData.framework",
+			inputFileListPaths = (
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MagicalRecord.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ORCoreData.framework",
+				"$(DERIVED_FILE_DIR)/Pods-ORCoreData_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ORCoreData_Example/Pods-ORCoreData_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FE01012CFA36ACFC089FC729 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ORCoreData_Tests/Pods-ORCoreData_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MagicalRecord/MagicalRecord.framework",
-				"${BUILT_PRODUCTS_DIR}/ORCoreData/ORCoreData.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MagicalRecord.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ORCoreData.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ORCoreData_Tests/Pods-ORCoreData_Tests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -371,13 +350,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94A75B891E44A87300EA6FB3 /* AnotherTestEntity+CoreDataClass.swift in Sources */,
-				94A6718B1CB7145100904AEB /* TestEntity.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				94A75B8A1E44A87300EA6FB3 /* AnotherTestEntity+CoreDataProperties.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
-				94A6718A1CB7145100904AEB /* TestEntity+CoreDataProperties.swift in Sources */,
-				94A671871CB713C300904AEB /* ORCoreData.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,10 +359,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94A671801CB711C300904AEB /* ORCoreDataSaverTests.swift in Sources */,
-				94A671921CB7169E00904AEB /* ORBaseTestWithCoreData.swift in Sources */,
-				947DE7BF1E44A1B6003FECAB /* ORCoreDataRemoverTests.swift in Sources */,
-				94A671901CB7166900904AEB /* ORCoreDataEntityFinderAndCreatorTests.swift in Sources */,
+				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,14 +401,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -461,7 +438,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -477,14 +454,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -501,7 +484,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -511,11 +494,9 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F951E6602CF21E17230219F3 /* Pods-ORCoreData_Example.debug.xcconfig */;
+			baseConfigurationReference = 3B1A7DF2E733C1530B8AA244 /* Pods-ORCoreData_Example.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NWAXZVJAA5;
 				INFOPLIST_FILE = ORCoreData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -528,11 +509,9 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AE233407B966DAA18697E48 /* Pods-ORCoreData_Example.release.xcconfig */;
+			baseConfigurationReference = EF998565E45DE391637100F1 /* Pods-ORCoreData_Example.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NWAXZVJAA5;
 				INFOPLIST_FILE = ORCoreData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -545,13 +524,10 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 109C870BEE095E0FBC90A442 /* Pods-ORCoreData_Tests.debug.xcconfig */;
+			baseConfigurationReference = 7F013CB69B5051B4D524DE9B /* Pods-ORCoreData_Tests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = NWAXZVJAA5;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -570,13 +546,10 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C07858C5F642DDA07D8B0C3E /* Pods-ORCoreData_Tests.release.xcconfig */;
+			baseConfigurationReference = EF1A017E9A7028361D3874EE /* Pods-ORCoreData_Tests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = NWAXZVJAA5;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -620,19 +593,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		94A671851CB713C300904AEB /* ORCoreData.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				94A671861CB713C300904AEB /* ORCoreData.xcdatamodel */,
-			);
-			currentVersion = 94A671861CB713C300904AEB /* ORCoreData.xcdatamodel */;
-			path = ORCoreData.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
 }

@@ -1,25 +1,27 @@
 PODS:
-  - MagicalRecord (2.3.2):
-    - MagicalRecord/Core (= 2.3.2)
-  - MagicalRecord/Core (2.3.2)
-  - ORCoreData (5.0.0):
-    - MagicalRecord (~> 2.3)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - ORCoreData (0.1.0)
 
 DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
   - ORCoreData (from `../`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - MagicalRecord
+  trunk:
+    - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
   ORCoreData:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
-  ORCoreData: c60702dba1d1714baeb284a8adcf03032810ed08
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  ORCoreData: 36292ad6f788a2242ea5efa453026e4144ee3372
 
-PODFILE CHECKSUM: 2d2bc76aa9b4a44bc4d6d29f28bcae09d4ed387b
+PODFILE CHECKSUM: 450ff8221795de257d5903d8775b4d0a47ae6c77
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.3
