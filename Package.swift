@@ -20,7 +20,9 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "ORCoreData",
-            dependencies: []),
+            dependencies: ["MagicalRecord"]),
+        .binaryTarget(name: "MagicalRecord",
+                      path: "MagicalRecord.xcframework"),
         .testTarget(
             name: "ORCoreDataTests",
             dependencies: ["ORCoreData"]),
