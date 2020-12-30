@@ -1,6 +1,6 @@
 # ORCoreData
 
-[![CI Status](https://img.shields.io/travis/Egor Lindberg/ORCoreData.svg?style=flat)](https://travis-ci.org/Egor Lindberg/ORCoreData)
+[![CI Status](https://img.shields.io/travis/Egor%20Lindberg/ORCoreData.svg?style=flat)](https://travis-ci.org/Egor%20Lindberg/ORCoreData)
 [![Version](https://img.shields.io/cocoapods/v/ORCoreData.svg?style=flat)](https://cocoapods.org/pods/ORCoreData)
 [![License](https://img.shields.io/cocoapods/l/ORCoreData.svg?style=flat)](https://cocoapods.org/pods/ORCoreData)
 [![Platform](https://img.shields.io/cocoapods/p/ORCoreData.svg?style=flat)](https://cocoapods.org/pods/ORCoreData)
